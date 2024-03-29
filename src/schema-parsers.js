@@ -26,3 +26,6 @@ exports.parsePromotional = function(promotionalStr) {
     };
 };
 
+exports.parseRegistrationStatus = function(registrationOpen) {
+    return registrationOpen.toLowerCase() === 'yes'? 'open' : 'closed';
+};

@@ -2,13 +2,22 @@
   {
     "id": "1",
     "code": "sa-islas-32k-2024",
+    "image": "assets/images/races/SanAndres2024.png",
+    "banner": "",
     "name": "San Andrés 32k",
     "date": "2024-04-28T00:00:00-05:00",
+    "altitude": "0",
+    "temperature": "28",
     "location": {
       "country": "colombia",
       "department": "san-andres",
       "city": "san-andres"
     },
+    "promotional": {
+      "featured": true,
+      "weight": 9
+    },
+    "registrationStatus": "closed",
     "distances": [
       {
         "raceId": "1",
@@ -25,13 +34,22 @@
   {
     "id": "2",
     "code": "med-maraton-2024",
+    "image": "assets/images/races/MaratonMedellin2024.png",
+    "banner": "assets/images/races/BannerMedellin2024.png",
     "name": "Maratón Medellín",
     "date": "2024-09-01T00:00:00-05:00",
+    "altitude": "1450",
+    "temperature": "22",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "medellin"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "closed",
     "distances": [
       {
         "raceId": "2",
@@ -58,13 +76,22 @@
   {
     "id": "3",
     "code": "cali-media-2024",
+    "image": "",
+    "banner": "",
     "name": "Media Maratón Cali",
     "date": "2024-06-09T00:00:00-05:00",
+    "altitude": "1018",
+    "temperature": "24",
     "location": {
       "country": "colombia",
       "department": "valle-del-cauca",
       "city": "cali"
     },
+    "promotional": {
+      "featured": true,
+      "weight": 8
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "3",
@@ -86,13 +113,22 @@
   {
     "id": "4",
     "code": "rio-media-2024",
+    "image": "assets/images/races/MediaMaratonRionegro.png",
+    "banner": "",
     "name": "Media Maratón Rionegro",
     "date": "2024-06-09T00:00:00-05:00",
+    "altitude": "2200",
+    "temperature": "20",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "rionegro"
     },
+    "promotional": {
+      "featured": true,
+      "weight": 10
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "4",
@@ -114,13 +150,22 @@
   {
     "id": "5",
     "code": "med-body-2024",
+    "image": "",
+    "banner": "",
     "name": "Expedición Bodytech Medellín",
     "date": "2024-05-19T00:00:00-05:00",
+    "altitude": "1450",
+    "temperature": "22",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "medellin"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "5",
@@ -142,13 +187,22 @@
   {
     "id": "6",
     "code": "med-paceros-2024",
+    "image": "assets/images/races/ParcerosRun2024.png",
+    "banner": "",
     "name": "Parceros Run",
     "date": "2024-03-15T00:00:00-05:00",
+    "altitude": "1450",
+    "temperature": "22",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "medellin"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "6",
@@ -175,13 +229,22 @@
   {
     "id": "7",
     "code": "med-nb-milla-2024",
+    "image": "assets/images/races/NewBalanceMillaUrbana.png",
+    "banner": "",
     "name": "NB Milla Urbana",
     "date": "2024-09-15T00:00:00-05:00",
+    "altitude": "1450",
+    "temperature": "22",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "medellin"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "7",
@@ -198,13 +261,22 @@
   {
     "id": "8",
     "code": "med-mi-tierra-2024",
-    "name": "Corre mi Tierra Medellín",
+    "image": "",
+    "banner": "assets/images/races/BannerMedellin2024.png",
+    "name": "Corre Mi Tierra Medellín",
     "date": "2024-04-21T00:00:00-05:00",
+    "altitude": "1450",
+    "temperature": "22",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "medellin"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "8",
@@ -231,13 +303,22 @@
   {
     "id": "9",
     "code": "bar-mi-tierra-2024",
-    "name": "Corre mi Tierra Barranquilla",
+    "image": "",
+    "banner": "",
+    "name": "Corre Mi Tierra Barranquilla",
     "date": "2024-06-16T00:00:00-05:00",
+    "altitude": "0",
+    "temperature": "26",
     "location": {
       "country": "colombia",
       "department": "atlantico",
       "city": "barranquilla"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "9",
@@ -264,13 +345,22 @@
   {
     "id": "10",
     "code": "bog-mi-tierra-2024",
-    "name": "Corre mi Tierra Bogotá",
+    "image": "",
+    "banner": "",
+    "name": "Corre Mi Tierra Bogotá",
     "date": "2024-11-17T00:00:00-05:00",
+    "altitude": "2400",
+    "temperature": "18",
     "location": {
       "country": "colombia",
       "department": "cundinamarca",
       "city": "bogota"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "10",
@@ -297,13 +387,22 @@
   {
     "id": "11",
     "code": "med-salud-mental-2024",
+    "image": "",
+    "banner": "",
     "name": "Carrera por la Salud Mental Medellín",
     "date": "2024-04-14T00:00:00-05:00",
+    "altitude": "1450",
+    "temperature": "22",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "medellin"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "11",
@@ -325,13 +424,22 @@
   {
     "id": "12",
     "code": "med-medallo-run-2024",
+    "image": "",
+    "banner": "",
     "name": "Medallo Run",
     "date": "2024-05-25T00:00:00-05:00",
+    "altitude": "1450",
+    "temperature": "22",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "medellin"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "12",
@@ -353,13 +461,22 @@
   {
     "id": "13",
     "code": "med-allianz-15k-2024",
+    "image": "",
+    "banner": "",
     "name": "Allianz 15K Medellín",
     "date": "2024-07-07T00:00:00-05:00",
+    "altitude": "1450",
+    "temperature": "22",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "medellin"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "13",
@@ -371,13 +488,22 @@
   {
     "id": "14",
     "code": "bog-media-2024",
+    "image": "",
+    "banner": "",
     "name": "Media Maratón de Bogotá",
     "date": "2024-07-28T00:00:00-05:00",
+    "altitude": "2400",
+    "temperature": "18",
     "location": {
       "country": "colombia",
       "department": "cundinamarca",
       "city": "bogota"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "14",
@@ -394,13 +520,22 @@
   {
     "id": "15",
     "code": "ceja-nb-15k-2024",
+    "image": "assets/images/races/NewBalance.png",
+    "banner": "",
     "name": "15K New Balance La Ceja",
     "date": "2024-08-11T00:00:00-05:00",
+    "altitude": "2200",
+    "temperature": "20",
     "location": {
       "country": "colombia",
       "department": "antioquia",
       "city": "la-ceja"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "15",
@@ -412,13 +547,22 @@
   {
     "id": "16",
     "code": "bog-nb-15k-2024",
+    "image": "assets/images/races/NewBalance.png",
+    "banner": "",
     "name": "15K New Balance  Bogotá",
     "date": "2024-11-24T00:00:00-05:00",
+    "altitude": "2400",
+    "temperature": "18",
     "location": {
       "country": "colombia",
       "department": "cundinamarca",
       "city": "bogota"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "16",
@@ -430,13 +574,22 @@
   {
     "id": "17",
     "code": "per-media-2024",
+    "image": "",
+    "banner": "",
     "name": "Media Maratón del Café",
     "date": "2024-11-03T00:00:00-05:00",
+    "altitude": "1500",
+    "temperature": "22",
     "location": {
       "country": "colombia",
       "department": "risaralda",
       "city": "pereira"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "17",
@@ -458,13 +611,22 @@
   {
     "id": "18",
     "code": "mon-media-2024",
+    "image": "",
+    "banner": "",
     "name": "Media Maratón de Montería",
     "date": "2024-11-10T00:00:00-05:00",
+    "altitude": "18",
+    "temperature": "26",
     "location": {
       "country": "colombia",
       "department": "cordoba",
       "city": "monteria"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "18",
@@ -491,13 +653,22 @@
   {
     "id": "19",
     "code": "man-media-2024",
+    "image": "",
+    "banner": "",
     "name": "Media Maratón de Manizales",
     "date": "2024-12-01T00:00:00-05:00",
+    "altitude": "2100",
+    "temperature": "18",
     "location": {
       "country": "colombia",
       "department": "caldas",
       "city": "manizales"
     },
+    "promotional": {
+      "featured": true,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "19",
@@ -524,13 +695,22 @@
   {
     "id": "20",
     "code": "cali-rio-2024",
+    "image": "",
+    "banner": "",
     "name": "Carrera Rio Cali",
     "date": "2024-12-15T00:00:00-05:00",
+    "altitude": "1100",
+    "temperature": "24",
     "location": {
       "country": "colombia",
       "department": "valle-del-cauca",
       "city": "cali"
     },
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "registrationStatus": "open",
     "distances": [
       {
         "raceId": "20",

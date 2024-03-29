@@ -16,6 +16,20 @@
         "mandatory": false
       },
       {
+        "name": "image",
+        "csvName": "image",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "banner",
+        "csvName": "banner",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
         "name": "name",
         "csvName": "name",
         "type": "native",
@@ -30,6 +44,20 @@
         "mandatory": true
       },
       {
+        "name": "altitude",
+        "csvName": "altitude",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": true
+      },
+      {
+        "name": "temperature",
+        "csvName": "temperature",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": true
+      },      
+      {
         "name": "location",
         "csvName": "location",
         "type": "custom",
@@ -39,10 +67,17 @@
       },
       {
         "name": "promotional",
-        "csvName": "Promotional",
+        "csvName": "promotional",
         "type": "custom",
         "regex": "^(Yes|No)(\\|\\d+)?$",
         "parser": "parsePromotional"
+      },
+      {
+        "name": "registrationStatus",
+        "csvName": "registrationOpen",
+        "type": "custom",
+        "regex": "^(Yes|No)$",
+        "parser": "parseRegistrationStatus"
       },      
       {
         "name": "distances",
