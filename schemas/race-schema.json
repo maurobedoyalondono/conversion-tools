@@ -9,6 +9,13 @@
         "mandatory": false
       },
       {
+        "name": "code",
+        "csvName": "code",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
         "name": "name",
         "csvName": "name",
         "type": "native",
