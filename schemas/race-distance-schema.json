@@ -1,0 +1,41 @@
+{
+    "name": "race-distance",
+    "fields": [
+      {
+        "name": "raceId",
+        "csvName": "raceId",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": true
+      },
+      {
+        "name": "distance",
+        "csvName": "Distance",
+        "type": "native",
+        "datatype": "number",
+        "mandatory": true
+      },
+      {
+        "name": "startTime",
+        "csvName": "Start Time",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "price",
+        "csvName": "Price",
+        "type": "native",
+        "datatype": "number",
+        "mandatory": false
+      },
+      {
+        "name": "toughness",
+        "csvName": "Toughness_Level",
+        "type": "custom",
+        "regex": "^[A-Za-z]+$",
+        "mandatory": false
+      }
+    ]
+  }
+  

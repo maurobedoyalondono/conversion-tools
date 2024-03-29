@@ -1,0 +1,527 @@
+[
+  {
+    "id": "1",
+    "name": "San Andrés 32k",
+    "date": "2024-04-28T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "san-andres",
+      "city": "san-andres"
+    },
+    "distances": [
+      {
+        "raceId": "1",
+        "distance": "32",
+        "startTime": "08:00"
+      },
+      {
+        "raceId": "1",
+        "distance": "21",
+        "startTime": "08:00"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Maratón Medellín",
+    "date": "2024-09-01T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "medellin"
+    },
+    "distances": [
+      {
+        "raceId": "2",
+        "distance": "42",
+        "startTime": ""
+      },
+      {
+        "raceId": "2",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "2",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "2",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Media Maratón Cali",
+    "date": "2024-06-09T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "valle-del-cauca",
+      "city": "cali"
+    },
+    "distances": [
+      {
+        "raceId": "3",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "3",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "3",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Media Maratón Rionegro",
+    "date": "2024-06-09T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "rionegro"
+    },
+    "distances": [
+      {
+        "raceId": "4",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "4",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "4",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Expedición Bodytech Medellín",
+    "date": "2024-05-19T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "medellin"
+    },
+    "distances": [
+      {
+        "raceId": "5",
+        "distance": "12",
+        "startTime": ""
+      },
+      {
+        "raceId": "5",
+        "distance": "6",
+        "startTime": ""
+      },
+      {
+        "raceId": "5",
+        "distance": "3",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Parceros Run",
+    "date": "2024-03-15T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "medellin"
+    },
+    "distances": [
+      {
+        "raceId": "6",
+        "distance": "15",
+        "startTime": ""
+      },
+      {
+        "raceId": "6",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "6",
+        "distance": "5",
+        "startTime": ""
+      },
+      {
+        "raceId": "6",
+        "distance": "2",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "NB Milla Urbana",
+    "date": "2024-09-15T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "medellin"
+    },
+    "distances": [
+      {
+        "raceId": "7",
+        "distance": "1.609",
+        "startTime": ""
+      },
+      {
+        "raceId": "7",
+        "distance": "0.8",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Corre mi Tierra Medellín",
+    "date": "2024-04-21T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "medellin"
+    },
+    "distances": [
+      {
+        "raceId": "8",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "8",
+        "distance": "15",
+        "startTime": ""
+      },
+      {
+        "raceId": "8",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "8",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Corre mi Tierra Barranquilla",
+    "date": "2024-06-16T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "atlantico",
+      "city": "barranquilla"
+    },
+    "distances": [
+      {
+        "raceId": "9",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "9",
+        "distance": "15",
+        "startTime": ""
+      },
+      {
+        "raceId": "9",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "9",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Corre mi Tierra Bogotá",
+    "date": "2024-11-17T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "cundinamarca",
+      "city": "bogota"
+    },
+    "distances": [
+      {
+        "raceId": "10",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "10",
+        "distance": "15",
+        "startTime": ""
+      },
+      {
+        "raceId": "10",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "10",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Carrera por la Salud Mental Medellín",
+    "date": "2024-04-14T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "medellin"
+    },
+    "distances": [
+      {
+        "raceId": "11",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "11",
+        "distance": "5",
+        "startTime": ""
+      },
+      {
+        "raceId": "11",
+        "distance": "3",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Medallo Run",
+    "date": "2024-05-25T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "medellin"
+    },
+    "distances": [
+      {
+        "raceId": "12",
+        "distance": "13",
+        "startTime": ""
+      },
+      {
+        "raceId": "12",
+        "distance": "7",
+        "startTime": ""
+      },
+      {
+        "raceId": "12",
+        "distance": "3",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Allianz 15K Medellín",
+    "date": "2024-07-07T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "medellin"
+    },
+    "distances": [
+      {
+        "raceId": "13",
+        "distance": "15",
+        "startTime": "07:00"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Media Maratón de Bogotá",
+    "date": "2024-07-28T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "cundinamarca",
+      "city": "bogota"
+    },
+    "distances": [
+      {
+        "raceId": "14",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "14",
+        "distance": "10",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "15K New Balance La Ceja",
+    "date": "2024-08-11T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "antioquia",
+      "city": "la-ceja"
+    },
+    "distances": [
+      {
+        "raceId": "15",
+        "distance": "15",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "15K New Balance  Bogotá",
+    "date": "2024-11-24T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "cundinamarca",
+      "city": "bogota"
+    },
+    "distances": [
+      {
+        "raceId": "16",
+        "distance": "15",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Media Maratón del Café",
+    "date": "2024-11-03T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "risaralda",
+      "city": "pereira"
+    },
+    "distances": [
+      {
+        "raceId": "17",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "17",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "17",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Media Maratón de Montería",
+    "date": "2024-11-10T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "cordoba",
+      "city": "monteria"
+    },
+    "distances": [
+      {
+        "raceId": "18",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "18",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "18",
+        "distance": "5",
+        "startTime": ""
+      },
+      {
+        "raceId": "18",
+        "distance": "3",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Media Maratón de Manizales",
+    "date": "2024-12-01T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "caldas",
+      "city": "manizales"
+    },
+    "distances": [
+      {
+        "raceId": "19",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceId": "19",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "19",
+        "distance": "5",
+        "startTime": ""
+      },
+      {
+        "raceId": "19",
+        "distance": "3",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Carrera Rio Cali",
+    "date": "2024-12-15T00:00:00-05:00",
+    "location": {
+      "country": "colombia",
+      "department": "valle-del-cauca",
+      "city": "cali"
+    },
+    "distances": [
+      {
+        "raceId": "20",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceId": "20",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  }
+]

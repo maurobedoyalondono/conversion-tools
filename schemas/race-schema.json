@@ -1,0 +1,51 @@
+{
+    "name": "race",
+    "fields": [
+      {
+        "name": "id",
+        "csvName": "id",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "name",
+        "csvName": "name",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": true
+      },
+      {
+        "name": "date",
+        "csvName": "date",
+        "type": "native",
+        "datatype": "date",
+        "mandatory": true
+      },
+      {
+        "name": "location",
+        "csvName": "location",
+        "type": "custom",
+        "parser": "parseLocation",
+        "regex": "^country:[^|]+\\|department:[^|]+\\|city:[^|]+$",
+        "mandatory": true
+      },
+      {
+        "name": "promotional",
+        "csvName": "Promotional",
+        "type": "custom",
+        "regex": "^(Yes|No)(\\|\\d+)?$",
+        "parser": "parsePromotional"
+      },      
+      {
+        "name": "distances",
+        "type": "aggregate",
+        "schema": "race-distance",        
+        "aggregateKey": {
+          "main": "id",
+          "foreign": "raceId"
+        }
+      }
+    ]
+  }
+  
