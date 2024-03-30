@@ -22,8 +22,11 @@ class Validator {
                     result[field.name] = value;
                     break;
                 case 'custom':
-                    this.validateCustomType(value, field, field.csvName);
-                    result[field.name] = schemaParsers[field.parser](value);
+                    if (value) {
+                        this.validateCustomType(value, field, field.csvName);
+                        result[field.name] = schemaParsers[field.parser](value);
+                    }                   
+                    
                     break;
             }            
         });
@@ -60,7 +63,7 @@ class Validator {
 
     validateCustomType(value, field, fieldName) {
         if (field.regex && !new RegExp(field.regex).test(value)) {
-            throw new Error(`Field ${fieldName} does not match the required pattern: ${field.regex}`);
+            throw new Error(`Field ${fieldName} with value ${value} does not match the required pattern: ${field.regex}`);
         }
 
         if (field.parser && schemaParsers[field.parser]) {

@@ -2,13 +2,6 @@
     "name": "race",
     "fields": [
       {
-        "name": "id",
-        "csvName": "id",
-        "type": "native",
-        "datatype": "string",
-        "mandatory": false
-      },
-      {
         "name": "code",
         "csvName": "code",
         "type": "native",
@@ -42,6 +35,13 @@
         "type": "native",
         "datatype": "date",
         "mandatory": true
+      },
+      {
+        "name": "numberOfRunners",
+        "csvName": "numberOfRunners",
+        "type": "native",
+        "datatype": "number",
+        "mandatory": false
       },
       {
         "name": "altitude",
@@ -84,8 +84,8 @@
         "type": "aggregate",
         "schema": "race-distance",        
         "aggregateKey": {
-          "main": "id",
-          "foreign": "raceId"
+          "main": "code",
+          "foreign": "raceCode"
         }
       }
     ]

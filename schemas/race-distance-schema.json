@@ -2,8 +2,8 @@
     "name": "race-distance",
     "fields": [
       {
-        "name": "raceId",
-        "csvName": "raceId",
+        "name": "raceCode",
+        "csvName": "raceCode",
         "type": "native",
         "datatype": "string",
         "mandatory": true
@@ -22,6 +22,14 @@
         "datatype": "string",
         "mandatory": false
       },
+      {
+        "name": "tags",
+        "csvName": "Tags",
+        "type": "custom",
+        "parser": "parseTags",
+        "regex": "^.+(:.+)?(\\|.+:.+)*$",
+        "mandatory": false
+      },      
       {
         "name": "price",
         "csvName": "Price",

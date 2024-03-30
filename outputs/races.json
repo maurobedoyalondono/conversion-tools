@@ -1,11 +1,11 @@
 [
   {
-    "id": "1",
     "code": "sa-islas-32k-2024",
     "image": "assets/images/races/SanAndres2024.png",
     "banner": "",
     "name": "San Andrés 32k",
     "date": "2024-04-28T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "0",
     "temperature": "28",
     "location": {
@@ -20,24 +20,24 @@
     "registrationStatus": "closed",
     "distances": [
       {
-        "raceId": "1",
+        "raceCode": "sa-islas-32k-2024",
         "distance": "32",
         "startTime": "08:00"
       },
       {
-        "raceId": "1",
+        "raceCode": "sa-islas-32k-2024",
         "distance": "21",
         "startTime": "08:00"
       }
     ]
   },
   {
-    "id": "2",
     "code": "med-maraton-2024",
     "image": "assets/images/races/MaratonMedellin2024.png",
     "banner": "assets/images/races/BannerMedellin2024.png",
     "name": "Maratón Medellín",
     "date": "2024-09-01T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1450",
     "temperature": "22",
     "location": {
@@ -52,34 +52,34 @@
     "registrationStatus": "closed",
     "distances": [
       {
-        "raceId": "2",
+        "raceCode": "med-maraton-2024",
         "distance": "42",
         "startTime": ""
       },
       {
-        "raceId": "2",
+        "raceCode": "med-maraton-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "2",
+        "raceCode": "med-maraton-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "2",
+        "raceCode": "med-maraton-2024",
         "distance": "5",
         "startTime": ""
       }
     ]
   },
   {
-    "id": "3",
     "code": "cali-media-2024",
     "image": "",
     "banner": "",
     "name": "Media Maratón Cali",
     "date": "2024-06-09T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1018",
     "temperature": "24",
     "location": {
@@ -88,35 +88,35 @@
       "city": "cali"
     },
     "promotional": {
-      "featured": true,
-      "weight": 8
+      "featured": false,
+      "weight": null
     },
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "3",
+        "raceCode": "cali-media-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "3",
+        "raceCode": "cali-media-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "3",
+        "raceCode": "cali-media-2024",
         "distance": "5",
         "startTime": ""
       }
     ]
   },
   {
-    "id": "4",
     "code": "rio-media-2024",
     "image": "assets/images/races/MediaMaratonRionegro.png",
     "banner": "",
     "name": "Media Maratón Rionegro",
     "date": "2024-06-09T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "2200",
     "temperature": "20",
     "location": {
@@ -131,29 +131,29 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "4",
+        "raceCode": "rio-media-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "4",
+        "raceCode": "rio-media-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "4",
+        "raceCode": "rio-media-2024",
         "distance": "5",
         "startTime": ""
       }
     ]
   },
   {
-    "id": "5",
     "code": "med-body-2024",
     "image": "",
     "banner": "",
     "name": "Expedición Bodytech Medellín",
     "date": "2024-05-19T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1450",
     "temperature": "22",
     "location": {
@@ -168,29 +168,35 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "5",
+        "raceCode": "med-body-2024",
         "distance": "12",
         "startTime": ""
       },
       {
-        "raceId": "5",
+        "raceCode": "med-body-2024",
         "distance": "6",
         "startTime": ""
       },
       {
-        "raceId": "5",
+        "raceCode": "med-body-2024",
         "distance": "3",
-        "startTime": ""
+        "startTime": "",
+        "tags": [
+          {
+            "text": "non-competitive",
+            "icon": ""
+          }
+        ]
       }
     ]
   },
   {
-    "id": "6",
     "code": "med-paceros-2024",
     "image": "assets/images/races/ParcerosRun2024.png",
     "banner": "",
     "name": "Parceros Run",
     "date": "2024-03-15T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1450",
     "temperature": "22",
     "location": {
@@ -205,34 +211,40 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "6",
+        "raceCode": "med-paceros-2024",
         "distance": "15",
         "startTime": ""
       },
       {
-        "raceId": "6",
+        "raceCode": "med-paceros-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "6",
+        "raceCode": "med-paceros-2024",
         "distance": "5",
         "startTime": ""
       },
       {
-        "raceId": "6",
+        "raceCode": "med-paceros-2024",
         "distance": "2",
-        "startTime": ""
+        "startTime": "",
+        "tags": [
+          {
+            "text": "non-competitive",
+            "icon": ""
+          }
+        ]
       }
     ]
   },
   {
-    "id": "7",
     "code": "med-nb-milla-2024",
     "image": "assets/images/races/NewBalanceMillaUrbana.png",
     "banner": "",
     "name": "NB Milla Urbana",
     "date": "2024-09-15T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1450",
     "temperature": "22",
     "location": {
@@ -247,24 +259,30 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "7",
+        "raceCode": "med-nb-milla-2024",
         "distance": "1.609",
         "startTime": ""
       },
       {
-        "raceId": "7",
+        "raceCode": "med-nb-milla-2024",
         "distance": "0.8",
-        "startTime": ""
+        "startTime": "",
+        "tags": [
+          {
+            "text": "non-competitive",
+            "icon": ""
+          }
+        ]
       }
     ]
   },
   {
-    "id": "8",
     "code": "med-mi-tierra-2024",
     "image": "",
     "banner": "assets/images/races/BannerMedellin2024.png",
     "name": "Corre Mi Tierra Medellín",
     "date": "2024-04-21T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1450",
     "temperature": "22",
     "location": {
@@ -279,34 +297,40 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "8",
+        "raceCode": "med-mi-tierra-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "8",
+        "raceCode": "med-mi-tierra-2024",
         "distance": "15",
         "startTime": ""
       },
       {
-        "raceId": "8",
+        "raceCode": "med-mi-tierra-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "8",
+        "raceCode": "med-mi-tierra-2024",
         "distance": "5",
-        "startTime": ""
+        "startTime": "",
+        "tags": [
+          {
+            "text": "family",
+            "icon": "pi-heart"
+          }
+        ]
       }
     ]
   },
   {
-    "id": "9",
     "code": "bar-mi-tierra-2024",
     "image": "",
     "banner": "",
     "name": "Corre Mi Tierra Barranquilla",
     "date": "2024-06-16T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "0",
     "temperature": "26",
     "location": {
@@ -321,34 +345,40 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "9",
+        "raceCode": "bar-mi-tierra-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "9",
+        "raceCode": "bar-mi-tierra-2024",
         "distance": "15",
         "startTime": ""
       },
       {
-        "raceId": "9",
+        "raceCode": "bar-mi-tierra-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "9",
+        "raceCode": "bar-mi-tierra-2024",
         "distance": "5",
-        "startTime": ""
+        "startTime": "",
+        "tags": [
+          {
+            "text": "family",
+            "icon": ""
+          }
+        ]
       }
     ]
   },
   {
-    "id": "10",
     "code": "bog-mi-tierra-2024",
     "image": "",
     "banner": "",
     "name": "Corre Mi Tierra Bogotá",
     "date": "2024-11-17T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "2400",
     "temperature": "18",
     "location": {
@@ -363,34 +393,40 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "10",
+        "raceCode": "bog-mi-tierra-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "10",
+        "raceCode": "bog-mi-tierra-2024",
         "distance": "15",
         "startTime": ""
       },
       {
-        "raceId": "10",
+        "raceCode": "bog-mi-tierra-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "10",
+        "raceCode": "bog-mi-tierra-2024",
         "distance": "5",
-        "startTime": ""
+        "startTime": "",
+        "tags": [
+          {
+            "text": "family",
+            "icon": ""
+          }
+        ]
       }
     ]
   },
   {
-    "id": "11",
     "code": "med-salud-mental-2024",
     "image": "",
     "banner": "",
     "name": "Carrera por la Salud Mental Medellín",
     "date": "2024-04-14T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1450",
     "temperature": "22",
     "location": {
@@ -405,29 +441,29 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "11",
+        "raceCode": "med-salud-mental-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "11",
+        "raceCode": "med-salud-mental-2024",
         "distance": "5",
         "startTime": ""
       },
       {
-        "raceId": "11",
+        "raceCode": "med-salud-mental-2024",
         "distance": "3",
         "startTime": ""
       }
     ]
   },
   {
-    "id": "12",
     "code": "med-medallo-run-2024",
     "image": "",
     "banner": "",
     "name": "Medallo Run",
     "date": "2024-05-25T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1450",
     "temperature": "22",
     "location": {
@@ -442,29 +478,35 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "12",
+        "raceCode": "med-medallo-run-2024",
         "distance": "13",
         "startTime": ""
       },
       {
-        "raceId": "12",
+        "raceCode": "med-medallo-run-2024",
         "distance": "7",
         "startTime": ""
       },
       {
-        "raceId": "12",
+        "raceCode": "med-medallo-run-2024",
         "distance": "3",
-        "startTime": ""
+        "startTime": "",
+        "tags": [
+          {
+            "text": "family",
+            "icon": ""
+          }
+        ]
       }
     ]
   },
   {
-    "id": "13",
     "code": "med-allianz-15k-2024",
     "image": "",
     "banner": "",
     "name": "Allianz 15K Medellín",
     "date": "2024-07-07T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1450",
     "temperature": "22",
     "location": {
@@ -479,19 +521,19 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "13",
+        "raceCode": "med-allianz-15k-2024",
         "distance": "15",
         "startTime": "07:00"
       }
     ]
   },
   {
-    "id": "14",
     "code": "bog-media-2024",
     "image": "",
     "banner": "",
     "name": "Media Maratón de Bogotá",
     "date": "2024-07-28T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "2400",
     "temperature": "18",
     "location": {
@@ -506,24 +548,24 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "14",
+        "raceCode": "bog-media-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "14",
+        "raceCode": "bog-media-2024",
         "distance": "10",
         "startTime": ""
       }
     ]
   },
   {
-    "id": "15",
     "code": "ceja-nb-15k-2024",
     "image": "assets/images/races/NewBalance.png",
     "banner": "",
     "name": "15K New Balance La Ceja",
     "date": "2024-08-11T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "2200",
     "temperature": "20",
     "location": {
@@ -538,19 +580,19 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "15",
+        "raceCode": "ceja-nb-15k-2024",
         "distance": "15",
         "startTime": ""
       }
     ]
   },
   {
-    "id": "16",
     "code": "bog-nb-15k-2024",
     "image": "assets/images/races/NewBalance.png",
     "banner": "",
     "name": "15K New Balance  Bogotá",
     "date": "2024-11-24T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "2400",
     "temperature": "18",
     "location": {
@@ -565,19 +607,19 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "16",
+        "raceCode": "bog-nb-15k-2024",
         "distance": "15",
         "startTime": ""
       }
     ]
   },
   {
-    "id": "17",
     "code": "per-media-2024",
     "image": "",
     "banner": "",
     "name": "Media Maratón del Café",
     "date": "2024-11-03T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1500",
     "temperature": "22",
     "location": {
@@ -592,29 +634,29 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "17",
+        "raceCode": "per-media-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "17",
+        "raceCode": "per-media-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "17",
+        "raceCode": "per-media-2024",
         "distance": "5",
         "startTime": ""
       }
     ]
   },
   {
-    "id": "18",
     "code": "mon-media-2024",
     "image": "",
     "banner": "",
     "name": "Media Maratón de Montería",
     "date": "2024-11-10T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "18",
     "temperature": "26",
     "location": {
@@ -629,34 +671,40 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "18",
+        "raceCode": "mon-media-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "18",
+        "raceCode": "mon-media-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "18",
+        "raceCode": "mon-media-2024",
         "distance": "5",
         "startTime": ""
       },
       {
-        "raceId": "18",
+        "raceCode": "mon-media-2024",
         "distance": "3",
-        "startTime": ""
+        "startTime": "",
+        "tags": [
+          {
+            "text": "kids",
+            "icon": ""
+          }
+        ]
       }
     ]
   },
   {
-    "id": "19",
     "code": "man-media-2024",
     "image": "",
     "banner": "",
     "name": "Media Maratón de Manizales",
     "date": "2024-12-01T00:00:00-05:00",
+    "numberOfRunners": "6000",
     "altitude": "2100",
     "temperature": "18",
     "location": {
@@ -666,39 +714,82 @@
     },
     "promotional": {
       "featured": true,
-      "weight": null
+      "weight": 8
     },
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "19",
+        "raceCode": "man-media-2024",
         "distance": "21",
         "startTime": ""
       },
       {
-        "raceId": "19",
+        "raceCode": "man-media-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "19",
+        "raceCode": "man-media-2024",
         "distance": "5",
-        "startTime": ""
-      },
-      {
-        "raceId": "19",
-        "distance": "3",
         "startTime": ""
       }
     ]
   },
   {
-    "id": "20",
+    "code": "man-media-junior-2024",
+    "image": "",
+    "banner": "",
+    "name": "Media Maratón de Manizales (Junior)",
+    "date": "2024-11-30T00:00:00-05:00",
+    "numberOfRunners": "",
+    "altitude": "2100",
+    "temperature": "18",
+    "location": {
+      "country": "colombia",
+      "department": "caldas",
+      "city": "manizales"
+    },
+    "promotional": {
+      "featured": true,
+      "weight": 8
+    },
+    "registrationStatus": "open",
+    "distances": [
+      {
+        "raceCode": "man-media-junior-2024",
+        "distance": "5",
+        "startTime": "",
+        "tags": [
+          {
+            "text": "junior",
+            "icon": ""
+          }
+        ]
+      },
+      {
+        "raceCode": "man-media-junior-2024",
+        "distance": "3",
+        "startTime": "",
+        "tags": [
+          {
+            "text": "junior",
+            "icon": "pi-heart"
+          },
+          {
+            "text": "kids",
+            "icon": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "code": "cali-rio-2024",
     "image": "",
     "banner": "",
     "name": "Carrera Rio Cali",
     "date": "2024-12-15T00:00:00-05:00",
+    "numberOfRunners": "",
     "altitude": "1100",
     "temperature": "24",
     "location": {
@@ -713,12 +804,12 @@
     "registrationStatus": "open",
     "distances": [
       {
-        "raceId": "20",
+        "raceCode": "cali-rio-2024",
         "distance": "10",
         "startTime": ""
       },
       {
-        "raceId": "20",
+        "raceCode": "cali-rio-2024",
         "distance": "5",
         "startTime": ""
       }
