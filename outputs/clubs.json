@@ -1,0 +1,149 @@
+[
+  {
+    "code": "trotones",
+    "image": "assets/images/clubs/trotones.png",
+    "banner": "",
+    "name": "Trotones",
+    "description": "",
+    "disciplines": [
+      {
+        "text": "Running",
+        "icon": ""
+      },
+      {
+        "text": "Trail",
+        "icon": ""
+      }
+    ],
+    "numberOfRunners": "",
+    "promotional": {
+      "featured": true,
+      "weight": 8
+    },
+    "locations": [
+      {
+        "clubCode": "trotones",
+        "location": {
+          "country": "colombia",
+          "department": "antioquia",
+          "city": "medellin"
+        }
+      }
+    ],
+    "trainers": []
+  },
+  {
+    "code": "mrt",
+    "image": "",
+    "banner": "",
+    "name": "Medellín Running Team",
+    "description": "",
+    "disciplines": [
+      {
+        "text": "Running",
+        "icon": ""
+      }
+    ],
+    "numberOfRunners": "",
+    "promotional": {
+      "featured": true,
+      "weight": 10
+    },
+    "locations": [
+      {
+        "clubCode": "mrt",
+        "location": {
+          "country": "colombia",
+          "department": "antioquia",
+          "city": "medellin"
+        }
+      }
+    ],
+    "trainers": []
+  },
+  {
+    "code": "vibrium-active",
+    "image": "",
+    "banner": "",
+    "name": "Vibrium",
+    "description": "",
+    "disciplines": [
+      {
+        "text": "Yoga",
+        "icon": ""
+      },
+      {
+        "text": "Running",
+        "icon": ""
+      }
+    ],
+    "numberOfRunners": "",
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "locations": [
+      {
+        "clubCode": "vibrium-active",
+        "location": {
+          "country": "colombia",
+          "department": "antioquia",
+          "city": "medellin"
+        }
+      }
+    ],
+    "trainers": []
+  },
+  {
+    "code": "cnmc",
+    "image": "",
+    "banner": "",
+    "name": "CNMC",
+    "description": "",
+    "disciplines": [
+      {
+        "text": "Tri",
+        "icon": ""
+      },
+      {
+        "text": "Trail",
+        "icon": ""
+      }
+    ],
+    "numberOfRunners": "",
+    "promotional": {
+      "featured": true,
+      "weight": 5
+    },
+    "locations": [
+      {
+        "clubCode": "cnmc",
+        "location": {
+          "country": "colombia",
+          "department": "antioquia",
+          "city": "medellin"
+        }
+      }
+    ],
+    "trainers": [
+      {
+        "clubCode": "cnmc",
+        "name": "Alejandro Restrepo",
+        "image": "",
+        "description": ""
+      },
+      {
+        "clubCode": "cnmc",
+        "name": "Mariana Carmona",
+        "image": "",
+        "description": ""
+      },
+      {
+        "clubCode": "cnmc",
+        "name": "Julián Muñoz",
+        "image": "",
+        "description": ""
+      }
+    ]
+  }
+]

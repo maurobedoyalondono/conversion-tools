@@ -2,6 +2,7 @@
   {
     "code": "sa-islas-32k-2024",
     "image": "assets/images/races/SanAndres2024.png",
+    "description": "",
     "banner": "",
     "name": "San Andrés 32k",
     "date": "2024-04-28T00:00:00-05:00",
@@ -34,6 +35,7 @@
   {
     "code": "med-maraton-2024",
     "image": "assets/images/races/MaratonMedellin2024.png",
+    "description": "",
     "banner": "assets/images/races/BannerMedellin2024.png",
     "name": "Maratón Medellín",
     "date": "2024-09-01T00:00:00-05:00",
@@ -76,6 +78,7 @@
   {
     "code": "cali-media-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Media Maratón Cali",
     "date": "2024-06-09T00:00:00-05:00",
@@ -113,6 +116,7 @@
   {
     "code": "rio-media-2024",
     "image": "assets/images/races/MediaMaratonRionegro.png",
+    "description": "",
     "banner": "",
     "name": "Media Maratón Rionegro",
     "date": "2024-06-09T00:00:00-05:00",
@@ -150,6 +154,7 @@
   {
     "code": "med-body-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Expedición Bodytech Medellín",
     "date": "2024-05-19T00:00:00-05:00",
@@ -193,6 +198,7 @@
   {
     "code": "med-paceros-2024",
     "image": "assets/images/races/ParcerosRun2024.png",
+    "description": "",
     "banner": "",
     "name": "Parceros Run",
     "date": "2024-03-15T00:00:00-05:00",
@@ -241,6 +247,7 @@
   {
     "code": "med-nb-milla-2024",
     "image": "assets/images/races/NewBalanceMillaUrbana.png",
+    "description": "",
     "banner": "",
     "name": "NB Milla Urbana",
     "date": "2024-09-15T00:00:00-05:00",
@@ -279,6 +286,7 @@
   {
     "code": "med-mi-tierra-2024",
     "image": "",
+    "description": "",
     "banner": "assets/images/races/BannerMedellin2024.png",
     "name": "Corre Mi Tierra Medellín",
     "date": "2024-04-21T00:00:00-05:00",
@@ -327,6 +335,7 @@
   {
     "code": "bar-mi-tierra-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Corre Mi Tierra Barranquilla",
     "date": "2024-06-16T00:00:00-05:00",
@@ -375,6 +384,7 @@
   {
     "code": "bog-mi-tierra-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Corre Mi Tierra Bogotá",
     "date": "2024-11-17T00:00:00-05:00",
@@ -423,6 +433,7 @@
   {
     "code": "med-salud-mental-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Carrera por la Salud Mental Medellín",
     "date": "2024-04-14T00:00:00-05:00",
@@ -460,6 +471,7 @@
   {
     "code": "med-medallo-run-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Medallo Run",
     "date": "2024-05-25T00:00:00-05:00",
@@ -503,6 +515,7 @@
   {
     "code": "med-allianz-15k-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Allianz 15K Medellín",
     "date": "2024-07-07T00:00:00-05:00",
@@ -530,6 +543,7 @@
   {
     "code": "bog-media-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Media Maratón de Bogotá",
     "date": "2024-07-28T00:00:00-05:00",
@@ -562,6 +576,7 @@
   {
     "code": "ceja-nb-15k-2024",
     "image": "assets/images/races/NewBalance.png",
+    "description": "",
     "banner": "",
     "name": "15K New Balance La Ceja",
     "date": "2024-08-11T00:00:00-05:00",
@@ -589,6 +604,7 @@
   {
     "code": "bog-nb-15k-2024",
     "image": "assets/images/races/NewBalance.png",
+    "description": "",
     "banner": "",
     "name": "15K New Balance  Bogotá",
     "date": "2024-11-24T00:00:00-05:00",
@@ -616,6 +632,7 @@
   {
     "code": "per-media-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Media Maratón del Café",
     "date": "2024-11-03T00:00:00-05:00",
@@ -653,6 +670,7 @@
   {
     "code": "mon-media-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Media Maratón de Montería",
     "date": "2024-11-10T00:00:00-05:00",
@@ -701,6 +719,7 @@
   {
     "code": "man-media-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Media Maratón de Manizales",
     "date": "2024-12-01T00:00:00-05:00",
@@ -738,6 +757,7 @@
   {
     "code": "man-media-junior-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Media Maratón de Manizales (Junior)",
     "date": "2024-11-30T00:00:00-05:00",
@@ -786,6 +806,7 @@
   {
     "code": "cali-rio-2024",
     "image": "",
+    "description": "",
     "banner": "",
     "name": "Carrera Rio Cali",
     "date": "2024-12-15T00:00:00-05:00",
@@ -810,6 +831,108 @@
       },
       {
         "raceCode": "cali-rio-2024",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "code": "quibdo-media-2024",
+    "image": "",
+    "description": "",
+    "banner": "",
+    "name": "Media Maratón de Quibdó",
+    "date": "2024-06-09T00:00:00-05:00",
+    "numberOfRunners": "",
+    "altitude": "",
+    "temperature": "",
+    "location": {
+      "country": "colombia",
+      "department": "choco",
+      "city": "quibdo"
+    },
+    "registrationStatus": "open",
+    "distances": [
+      {
+        "raceCode": "quibdo-media-2024",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceCode": "quibdo-media-2024",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceCode": "quibdo-media-2024",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "code": "flori-media-2024",
+    "image": "",
+    "description": "",
+    "banner": "",
+    "name": "Media Maratón Floridablanca",
+    "date": "2024-06-30T00:00:00-05:00",
+    "numberOfRunners": "",
+    "altitude": "",
+    "temperature": "",
+    "location": {
+      "country": "colombia",
+      "department": "santander",
+      "city": "floridablanca"
+    },
+    "registrationStatus": "open",
+    "distances": [
+      {
+        "raceCode": "flori-media-2024",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceCode": "flori-media-2024",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceCode": "flori-media-2024",
+        "distance": "5",
+        "startTime": ""
+      }
+    ]
+  },
+  {
+    "code": "since-media-2024",
+    "image": "",
+    "description": "",
+    "banner": "",
+    "name": "Sincelejo Media Maratón",
+    "date": "2024-06-30T00:00:00-05:00",
+    "numberOfRunners": "",
+    "altitude": "",
+    "temperature": "",
+    "location": {
+      "country": "colombia",
+      "department": "sucre",
+      "city": "sincelejo"
+    },
+    "registrationStatus": "open",
+    "distances": [
+      {
+        "raceCode": "since-media-2024",
+        "distance": "21",
+        "startTime": ""
+      },
+      {
+        "raceCode": "since-media-2024",
+        "distance": "10",
+        "startTime": ""
+      },
+      {
+        "raceCode": "since-media-2024",
         "distance": "5",
         "startTime": ""
       }

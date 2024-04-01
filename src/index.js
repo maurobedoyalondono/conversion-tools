@@ -35,6 +35,7 @@ yargs(hideBin(process.argv))
       });
     },
     async (argv) => {
+      console.log('converting...');
       await orchestrator.generate(argv['main-schema'], argv.input, argv.output, argv.aggregation);
     }
   )

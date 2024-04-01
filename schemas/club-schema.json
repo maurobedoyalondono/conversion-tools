@@ -76,7 +76,7 @@
       },{
         "name": "trainers",
         "type": "aggregate",
-        "schema": "club-location",      
+        "schema": "club-trainer",      
         "aggregateKey": {
           "main": "code",
           "foreign": "clubCode"
