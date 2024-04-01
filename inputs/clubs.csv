@@ -1,0 +1,5 @@
+id,code,name,image,banner,description,numberOfRunners,promotional,Disciplines,socialNetworks
+1,trotones,Trotones,assets/images/clubs/trotones.png,,,,Yes|8,Running|Trail,fb@clubtrotonesmedellin
+2,mrt,Medellín Running Team,,,,,Yes|10,Running,web@https://www.medellinrunteam.com|ig@medellinrunteam
+3,vibrium-active,Vibrium,,,,,No,Yoga|Running,ig@vibriumactive|web@https://vibriumactive.com/pages/club-de-trote|fb@vibriumactive
+4,cnmc,CNMC,,,,,Yes|5,Tri|Trail,ig@cnmctri|fb@CNMCtri|web@https://cnmctri.wordpress.com/
