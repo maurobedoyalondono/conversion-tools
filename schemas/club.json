@@ -1,5 +1,5 @@
 {
-    "name": "race",
+    "name": "club",
     "fields": [
       {
         "name": "code",
@@ -11,13 +11,6 @@
       {
         "name": "image",
         "csvName": "image",
-        "type": "native",
-        "datatype": "string",
-        "mandatory": false
-      },
-      {
-        "name": "description",
-        "csvName": "description",
         "type": "native",
         "datatype": "string",
         "mandatory": false
@@ -37,11 +30,19 @@
         "mandatory": true
       },
       {
-        "name": "date",
-        "csvName": "date",
+        "name": "description",
+        "csvName": "description",
         "type": "native",
-        "datatype": "date",
+        "datatype": "string",
         "mandatory": true
+      },
+      {
+        "name": "disciplines",
+        "csvName": "Disciplines",
+        "type": "custom",
+        "parser": "parseTags",
+        "regex": "^.+(:.+)?(\\|.+:.+)*$",
+        "mandatory": false
       },
       {
         "name": "numberOfRunners",
@@ -51,33 +52,11 @@
         "mandatory": false
       },
       {
-        "name": "altitude",
-        "csvName": "altitude",
-        "type": "native",
-        "datatype": "string",
-        "mandatory": true
-      },
-      {
-        "name": "temperature",
-        "csvName": "temperature",
-        "type": "native",
-        "datatype": "string",
-        "mandatory": true
-      },
-      {
         "name": "socialNetworks",
         "csvName": "SocialNetworks",
         "type": "custom",
         "parser": "parseSocialNetworks",
         "regex": "^(?:(?:ig|web|fb)@[^|]+\\|?)+$"
-      },            
-      {
-        "name": "location",
-        "csvName": "location",
-        "type": "custom",
-        "parser": "parseLocation",
-        "regex": "^country:[^|]+\\|department:[^|]+\\|city:[^|]+$",
-        "mandatory": true
       },
       {
         "name": "promotional",
@@ -85,21 +64,22 @@
         "type": "custom",
         "regex": "^(Yes|No)(\\|\\d+)?$",
         "parser": "parsePromotional"
-      },
-      {
-        "name": "registrationStatus",
-        "csvName": "registrationOpen",
-        "type": "custom",
-        "regex": "^(Yes|No)$",
-        "parser": "parseRegistrationStatus"
       },      
       {
-        "name": "distances",
+        "name": "locations",
         "type": "aggregate",
-        "schema": "race-distance",        
+        "schema": "club-location",      
         "aggregateKey": {
           "main": "code",
-          "foreign": "raceCode"
+          "foreign": "clubCode"
+        }
+      },{
+        "name": "trainers",
+        "type": "aggregate",
+        "schema": "club-location",      
+        "aggregateKey": {
+          "main": "code",
+          "foreign": "clubCode"
         }
       }
     ]

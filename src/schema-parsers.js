@@ -42,3 +42,18 @@ exports.parseTags = function(tagsStr) {
         return { text, icon };
     });
 };
+
+exports.parseSocialNetworks = function(socialNetworksStr) {
+    const networks = socialNetworksStr.split('|');
+    const socialNetworksObj = {};
+    
+    networks.forEach(network => {
+        const [key, value] = network.split('@');
+        if (key && value && (key === 'ig' || key === 'web' || key === 'fb')) {
+            socialNetworksObj[key] = value;
+        }
+    });
+
+    return socialNetworksObj;
+};
+

@@ -1,0 +1,42 @@
+{
+    "name": "club-trainer",
+    "fields": [
+      {
+        "name": "clubCode",
+        "csvName": "clubCode",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "name",
+        "csvName": "name",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "image",
+        "csvName": "image",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "description",
+        "csvName": "description",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "disciplines",
+        "csvName": "Disciplines",
+        "type": "custom",
+        "parser": "parseTags",
+        "regex": "^.+(:.+)?(\\|.+:.+)*$",
+        "mandatory": false
+      }
+    ]
+  }
+  

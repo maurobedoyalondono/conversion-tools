@@ -1,0 +1,21 @@
+{
+    "name": "club-location",
+    "fields": [
+      {
+        "name": "clubCode",
+        "csvName": "clubCode",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "location",
+        "csvName": "location",
+        "type": "custom",
+        "parser": "parseLocation",
+        "regex": "^country:[^|]+\\|department:[^|]+\\|city:[^|]+$",
+        "mandatory": true
+      }
+    ]
+  }
+  
