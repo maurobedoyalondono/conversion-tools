@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "name": "Race",
+    "translations": {
+      "es": "Carrera"
+    },
+    "parentid": "",
+    "link": "",
+    "routeLink": "/races"
+  },
+  {
+    "id": "2",
+    "name": "Antioquia",
+    "parentid": "1",
+    "link": "",
+    "routeLink": "/races/?location_department=antioquia"
+  },
+  {
+    "id": "3",
+    "name": "Journey",
+    "parentid": "1",
+    "link": "",
+    "routeLink": "/pages/journey"
+  },
+  {
+    "id": "4",
+    "name": "Medellin",
+    "parentid": "2",
+    "link": "",
+    "routeLink": "/races/?location_city=medellin"
+  }
+]

@@ -1,0 +1,5 @@
+id,name,parentid,link,routeLink
+1,en:Race|es:Carrera,,,/races
+2,en:Antioquia,1,,/races/?location_department=antioquia
+3,en:Journey,1,,/pages/journey
+4,en:Medellin,2,,/races/?location_city=medellin

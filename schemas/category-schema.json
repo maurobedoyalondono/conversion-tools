@@ -1,0 +1,51 @@
+{
+    "name": "category",
+    "type": "tree",
+    "treeRelationship": {
+        "id": "id",
+        "parentId": "parentid"
+    },
+    "fields": [
+      {
+        "name": "id",
+        "csvName": "id",
+        "type": "native",
+        "datatype": "number",
+        "mandatory": true
+      },
+      {
+        "name": "name",
+        "csvName": "name",
+        "type": "localizable",
+        "datatype": "string",
+        "mandatory": true,
+        "parser": "parseLocalization",
+        "localizationDetails": {
+          "defaultLanguage": "en",
+          "localizationField": "translations"
+        }
+      },
+      {
+        "name": "parentid",
+        "csvName": "parentid",
+        "type": "native",
+        "datatype": "number",
+        "mandatory": false
+      },
+      {
+        "name": "link",
+        "csvName": "link",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "routeLink",
+        "csvName": "routeLink",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": true
+      }
+    ]
+  }
+  
