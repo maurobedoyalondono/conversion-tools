@@ -1,9 +1,12 @@
 [
   {
     "id": "1",
-    "name": "Race",
+    "name": "Races",
     "translations": {
-      "es": "Carrera"
+      "name": {
+        "en": "Races",
+        "es": "Carreras"
+      }
     },
     "parentid": "",
     "link": "",
@@ -27,11 +30,154 @@
         ]
       },
       {
-        "id": "3",
-        "name": "Journey",
+        "id": "5",
+        "name": "Bogotá",
         "parentid": "1",
         "link": "",
-        "routeLink": "/pages/journey",
+        "routeLink": "/races/?location_city=bogota",
+        "items": []
+      },
+      {
+        "id": "6",
+        "name": "Valle del Cauca",
+        "parentid": "1",
+        "link": "",
+        "routeLink": "/races/?location_department=valle-del-cauca",
+        "items": [
+          {
+            "id": "7",
+            "name": "Cali",
+            "parentid": "6",
+            "link": "",
+            "routeLink": "/races/?location_city=cali",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "Manizales",
+        "parentid": "1",
+        "link": "",
+        "routeLink": "/races?location_city=manizales",
+        "items": []
+      },
+      {
+        "id": "9",
+        "name": "San Andrés",
+        "parentid": "1",
+        "link": "",
+        "routeLink": "/races?location_city=san-andres",
+        "items": []
+      },
+      {
+        "id": "10",
+        "name": "Others",
+        "translations": {
+          "name": {
+            "en": "Others",
+            "es": "Otros"
+          }
+        },
+        "parentid": "1",
+        "link": "",
+        "routeLink": "/races?location_department=others",
+        "items": [
+          {
+            "id": "11",
+            "name": "Quibdó",
+            "parentid": "10",
+            "link": "",
+            "routeLink": "/races?location_city=quibdo",
+            "items": []
+          },
+          {
+            "id": "12",
+            "name": "Florida Blanca",
+            "parentid": "10",
+            "link": "",
+            "routeLink": "/races?location_city=florida-blanca",
+            "items": []
+          },
+          {
+            "id": "13",
+            "name": "Sincelejo",
+            "parentid": "10",
+            "link": "",
+            "routeLink": "/races?location_city=sincelejo",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Journey",
+    "translations": {
+      "name": {
+        "en": "Journey",
+        "es": "Mi Viaje"
+      }
+    },
+    "parentid": "",
+    "link": "",
+    "routeLink": "/pages/journey",
+    "items": []
+  },
+  {
+    "id": "14",
+    "name": "Race Day",
+    "translations": {
+      "name": {
+        "en": "Race Day",
+        "es": "Día de Carrera"
+      }
+    },
+    "parentid": "",
+    "link": "",
+    "routeLink": "/pages/race-day",
+    "items": []
+  },
+  {
+    "id": "15",
+    "name": "Gear",
+    "translations": {
+      "name": {
+        "en": "Gear",
+        "es": "Indumentaria"
+      }
+    },
+    "parentid": "",
+    "link": "",
+    "routeLink": "/pages/gear",
+    "items": []
+  },
+  {
+    "id": "16",
+    "name": "More",
+    "translations": {
+      "name": {
+        "en": "More",
+        "es": "Más"
+      }
+    },
+    "parentid": "",
+    "link": "",
+    "routeLink": "",
+    "items": [
+      {
+        "id": "17",
+        "name": "Nutrition",
+        "translations": {
+          "name": {
+            "en": "Nutrition",
+            "es": "Nutrición"
+          }
+        },
+        "parentid": "16",
+        "link": "",
+        "routeLink": "/pages/nutrition-basics",
         "items": []
       }
     ]

@@ -58,28 +58,22 @@ exports.parseSocialNetworks = function(socialNetworksStr) {
 };
 
 exports.parseLocalization = function(localizationStr, localizationDetails) {
-    const { defaultLanguage, localizationField } = localizationDetails;
     const parts = localizationStr.split('|');
     let defaultText = '';
-    let localizations = {};
+    const translations = {};
 
     parts.forEach(part => {
         const [lang, text] = part.split(':');
-        if (lang === defaultLanguage) {
-            defaultText = text; // Assign text to default language directly
-        } else {
-            if (!localizations[localizationField]) {
-                localizations[localizationField] = {}; // Initialize if not already done
-            }
-            localizations[localizationField][lang] = text; // Assign text under its language key
+        if (lang === localizationDetails.defaultLanguage) {
+            defaultText = text;
         }
+
+        translations[lang] = text;
     });
 
-    // Return an object structured as expected: with default text and localizations appropriately nested
-    return {
-        defaultText,
-        ...localizations // Spread to include the localizationField directly in the returned object
-    };
+    // Determine whether to include translations
+    const includeTranslations = Object.keys(translations).length > 1;
+    return { defaultText, translations: includeTranslations ? translations : null };
 };
 
 
