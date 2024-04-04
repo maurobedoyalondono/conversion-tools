@@ -23,6 +23,13 @@
         "mandatory": false
       },
       {
+        "name": "socialNetworks",
+        "csvName": "socialNetworks",
+        "type": "custom",
+        "parser": "parseSocialNetworks",
+        "regex": "^(?:(?:ig|web|fb)@[^|]+\\|?)+$"
+      },
+      {
         "name": "disciplines",
         "csvName": "Disciplines",
         "type": "custom",

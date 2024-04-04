@@ -9,12 +9,25 @@
         "mandatory": false
       },
       {
-        "name": "location",
-        "csvName": "location",
-        "type": "custom",
-        "parser": "parseLocation",
-        "regex": "^country:[^|]+\\|department:[^|]+\\|city:[^|]+$",
-        "mandatory": true
+        "name": "country",
+        "csvName": "country",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "department",
+        "csvName": "department",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
+      {
+        "name": "city",
+        "csvName": "city",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
       }
     ]
   }

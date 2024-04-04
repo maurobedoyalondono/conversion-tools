@@ -45,6 +45,12 @@
         "type": "native",
         "datatype": "string",
         "mandatory": true
+      },{
+        "name": "order",
+        "csvName": "order",
+        "type": "native",
+        "datatype": "number",
+        "mandatory": false
       }
     ]
   }

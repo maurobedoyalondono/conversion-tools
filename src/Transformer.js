@@ -19,7 +19,11 @@ class Transformer {
             switch (field.type) {
                 case 'native':
                     this.validateNativeType(value, field.datatype, field.csvName);
-                    result[field.name] = value;
+                    if (field.datatype == 'number') {
+                        result[field.name] = +value;    
+                    }else{
+                        result[field.name] = value;
+                    }                    
                     break;
                 case 'custom':
                     if (value) {

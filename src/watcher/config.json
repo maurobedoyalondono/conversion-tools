@@ -1,0 +1,29 @@
+{
+    "watchConfig": [
+      {
+        "inputDir": "/home/negrito/Downloads",
+        "outputDir": "/home/negrito/src/projects/conversion-tools/inputs",
+        "filesToMove": ["categ.*\\.csv", "club.*\\.csv", "race.*\\.csv"],
+        "logFile": "downloads-to-conversion.txt"
+      },
+      {
+        "inputDir": "/home/negrito/src/projects/conversion-tools/outputs",
+        "outputDir": "/home/negrito/src/projects/VeloQuo/veloquo-backend/tingo_migrations/categories",
+        "filesToMove": ["categories.json", "categories-tree.json"],
+        "logFile": "conversion-to-backend.txt"
+      },
+      {
+        "inputDir": "/home/negrito/src/projects/conversion-tools/outputs",
+        "outputDir": "/home/negrito/src/projects/VeloQuo/veloquo-backend/tingo_migrations/clubs",
+        "filesToMove": ["clubs.json"],
+        "logFile": "conversion-to-backend.txt"
+      },
+      {
+        "inputDir": "/home/negrito/src/projects/conversion-tools/outputs",
+        "outputDir": "/home/negrito/src/projects/VeloQuo/veloquo-backend/tingo_migrations/races",
+        "filesToMove": ["races.json"],
+        "logFile": "conversion-to-backend.txt"
+      }
+    ]
+}
+  
