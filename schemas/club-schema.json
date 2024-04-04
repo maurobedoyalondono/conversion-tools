@@ -32,9 +32,30 @@
       {
         "name": "description",
         "csvName": "description",
-        "type": "native",
+        "type": "localizable",
         "datatype": "string",
-        "mandatory": true
+        "mandatory": false,
+        "parser": "parseLocalization",
+        "localizationDetails": {
+          "defaultLanguage": "en",
+          "localizationField": "translations"
+        }
+      },
+      {
+        "name": "plus",
+        "csvName": "plus",
+        "type": "custom",
+        "parser": "parseTags",
+        "regex": "^.+(:.+)?(\\|.+:.+)*$",
+        "mandatory": false
+      },
+      {
+        "name": "minus",
+        "csvName": "minus",
+        "type": "custom",
+        "parser": "parseTags",
+        "regex": "^.+(:.+)?(\\|.+:.+)*$",
+        "mandatory": false
       },
       {
         "name": "disciplines",
@@ -45,8 +66,15 @@
         "mandatory": false
       },
       {
-        "name": "numberOfRunners",
-        "csvName": "numberOfRunners",
+        "name": "weeklyMeets",
+        "csvName": "weeklyMeets",
+        "type": "native",
+        "datatype": "number",
+        "mandatory": false
+      },
+      {
+        "name": "clubSize",
+        "csvName": "clubSize",
         "type": "native",
         "datatype": "number",
         "mandatory": false
@@ -77,6 +105,15 @@
         "name": "trainers",
         "type": "aggregate",
         "schema": "club-trainer",      
+        "aggregateKey": {
+          "main": "code",
+          "foreign": "clubCode"
+        }
+      },
+      {
+        "name": "comments",
+        "type": "aggregate",
+        "schema": "club-comment",      
         "aggregateKey": {
           "main": "code",
           "foreign": "clubCode"

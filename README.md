@@ -34,7 +34,7 @@ Linux
 ```bash
 node src/index.js convert -m race -i "inputs/races.csv" -o "outputs/races.json" -a "race-distance;inputs/race-distances.csv"
 
-node src/index.js convert -m club -i "inputs/clubs.csv" -o "outputs/clubs.json" -a "club-location;inputs/club-locations.csv" -a "club-trainer;inputs/club-trainers.csv"
+node src/index.js convert -m club -i "inputs/clubs.csv" -o "outputs/clubs.json" -a "club-location;inputs/club-locations.csv" -a "club-trainer;inputs/club-trainers.csv" -a "club-comment;inputs/club-comments.csv"
 ```
 
 ### Command Options

@@ -1,10 +1,16 @@
 [
   {
     "code": "trotones",
-    "image": "assets/images/clubs/trotones.png",
+    "image": "",
     "banner": "",
     "name": "Trotones",
     "description": "",
+    "plus": [
+      {
+        "text": "best for Mountain",
+        "icon": ""
+      }
+    ],
     "disciplines": [
       {
         "text": "Running",
@@ -15,7 +21,8 @@
         "icon": ""
       }
     ],
-    "numberOfRunners": "",
+    "weeklyMeets": "",
+    "clubSize": "",
     "promotional": {
       "featured": true,
       "weight": 8
@@ -30,24 +37,32 @@
         }
       }
     ],
-    "trainers": []
+    "trainers": [],
+    "comments": []
   },
   {
     "code": "mrt",
     "image": "",
     "banner": "",
-    "name": "Medellín Running Team",
+    "name": "Medellín Running Team (MRT)",
     "description": "",
-    "disciplines": [
+    "plus": [
       {
-        "text": "Running",
+        "text": "best for Beginners",
         "icon": ""
       }
     ],
-    "numberOfRunners": "",
+    "disciplines": [
+      {
+        "text": "No",
+        "icon": ""
+      }
+    ],
+    "weeklyMeets": "",
+    "clubSize": "",
     "promotional": {
       "featured": true,
-      "weight": 10
+      "weight": 6
     },
     "locations": [
       {
@@ -59,7 +74,8 @@
         }
       }
     ],
-    "trainers": []
+    "trainers": [],
+    "comments": []
   },
   {
     "code": "vibrium-active",
@@ -77,7 +93,8 @@
         "icon": ""
       }
     ],
-    "numberOfRunners": "",
+    "weeklyMeets": "",
+    "clubSize": "",
     "promotional": {
       "featured": false,
       "weight": null
@@ -92,7 +109,8 @@
         }
       }
     ],
-    "trainers": []
+    "trainers": [],
+    "comments": []
   },
   {
     "code": "cnmc",
@@ -100,6 +118,18 @@
     "banner": "",
     "name": "CNMC",
     "description": "",
+    "plus": [
+      {
+        "text": "best for Competitive",
+        "icon": ""
+      }
+    ],
+    "minus": [
+      {
+        "text": "demands time",
+        "icon": ""
+      }
+    ],
     "disciplines": [
       {
         "text": "Tri",
@@ -110,7 +140,8 @@
         "icon": ""
       }
     ],
-    "numberOfRunners": "",
+    "weeklyMeets": "",
+    "clubSize": "100",
     "promotional": {
       "featured": true,
       "weight": 5
@@ -144,6 +175,176 @@
         "image": "",
         "description": ""
       }
+    ],
+    "comments": []
+  },
+  {
+    "code": "libardos-team",
+    "image": "",
+    "banner": "",
+    "name": "Libardo's Team",
+    "description": "Somos un club deportivo enfocado a fomentar la práctica del atletismo, actividades culturales, recreación y aprovechamiento del tiempo libre, según lo estipula la ley del deporte ",
+    "disciplines": [
+      {
+        "text": "No",
+        "icon": ""
+      }
+    ],
+    "weeklyMeets": "",
+    "clubSize": "100",
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "locations": [
+      {
+        "clubCode": "libardos-team",
+        "location": {
+          "country": "colombia",
+          "department": "antioquia",
+          "city": "medellin"
+        }
+      }
+    ],
+    "trainers": [],
+    "comments": []
+  },
+  {
+    "code": "colrunners",
+    "image": "",
+    "banner": "",
+    "name": "Colrunners",
+    "description": "Prestamos servicios de entrenamiento físico integral orientado a la mejora de la condición física y preparación para carreras atléticas de corredores de fondo, bajo parámetros de salud y bienestar.\r\nNuestro entrenamiento es diseñado y orientado por profesionales del deporte y la educación física",
+    "disciplines": [
+      {
+        "text": "Running",
+        "icon": ""
+      }
+    ],
+    "weeklyMeets": "",
+    "clubSize": "100",
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "locations": [
+      {
+        "clubCode": "colrunners",
+        "location": {
+          "country": "colombia",
+          "department": "antioquia",
+          "city": "medellin"
+        }
+      }
+    ],
+    "trainers": [],
+    "comments": []
+  },
+  {
+    "code": "Ismajov",
+    "image": "",
+    "banner": "",
+    "name": "Ismajov",
+    "description": "Ismajov is a unique club that merges a passion for triathlon and athletics with a rigorous focus on data, science, nutrition, and healthcare. Led by an elite triathlete coach, the club offers a personalized training experience, utilizing advanced data analysis to optimize the performance of each member. With an emphasis on health and nutrition, Ismajov is perfect for athletes looking to surpass their limits, improving through a scientific and technological approach.",
+    "translations": {
+      "description": {
+        "en": "Ismajov is a unique club that merges a passion for triathlon and athletics with a rigorous focus on data, science, nutrition, and healthcare. Led by an elite triathlete coach, the club offers a personalized training experience, utilizing advanced data analysis to optimize the performance of each member. With an emphasis on health and nutrition, Ismajov is perfect for athletes looking to surpass their limits, improving through a scientific and technological approach.",
+        "es": "Ismajov es un club único, que fusiona la pasión por el triatlón y el atletismo con un enfoque riguroso en datos, ciencia, nutrición y cuidado de la salud. Dirigido por un entrenador triatleta élite, el club ofrece una experiencia de entrenamiento personalizada, utilizando análisis de datos avanzados para optimizar el rendimiento de cada miembro. Con énfasis en la salud y la nutrición, ismajov perfecto para atletas que buscan superar sus límites, mejorando mediante un enfoque científico y tecnológico."
+      }
+    },
+    "plus": [
+      {
+        "text": "scientific approach",
+        "icon": ""
+      },
+      {
+        "text": "beginners",
+        "icon": ""
+      },
+      {
+        "text": "competitive athletes",
+        "icon": ""
+      }
+    ],
+    "disciplines": [
+      {
+        "text": "Running",
+        "icon": ""
+      },
+      {
+        "text": "Cycling",
+        "icon": ""
+      },
+      {
+        "text": "Tri",
+        "icon": ""
+      }
+    ],
+    "weeklyMeets": "3",
+    "clubSize": "10",
+    "promotional": {
+      "featured": true,
+      "weight": 10
+    },
+    "locations": [
+      {
+        "clubCode": "Ismajov",
+        "location": {
+          "country": "colombia",
+          "department": "antioquia",
+          "city": "medellin"
+        }
+      }
+    ],
+    "trainers": [],
+    "comments": [
+      {
+        "clubCode": "Ismajov",
+        "name": "Mauricio Bedoya",
+        "image": "",
+        "comments": "Entrenar con Ismael ha definitivamente cambiado la forma en la que veo el deporte, ahora lo veo de una forma más integral, pensando en cuidar mi salud y no en resultados inmediatos"
+      }
     ]
+  },
+  {
+    "code": "tritanium",
+    "image": "",
+    "banner": "",
+    "name": "Tritanium",
+    "description": "Equipo deportivo para triatletas, ciclistas y atletas 🏃🏻‍♂️🏊🏾‍♀️🚴‍♀️. Organizadores de eventos deportivos 👷🏽‍♀️✍🏼🗓",
+    "plus": [
+      {
+        "text": "best for Beginners",
+        "icon": ""
+      }
+    ],
+    "disciplines": [
+      {
+        "text": "Running",
+        "icon": ""
+      },
+      {
+        "text": "Tri",
+        "icon": ""
+      }
+    ],
+    "weeklyMeets": "2",
+    "clubSize": "20",
+    "promotional": {
+      "featured": false,
+      "weight": null
+    },
+    "locations": [
+      {
+        "clubCode": "tritanium",
+        "location": {
+          "country": "colombia",
+          "department": "antioquia",
+          "city": "medellin"
+        }
+      }
+    ],
+    "trainers": [],
+    "comments": []
   }
 ]
