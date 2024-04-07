@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "node src/watcher/index.js"
+    "watch": "node src/watcher/index.js",
+    "watch:img": "node src/imagesWatcher/index.js"
   },
   "keywords": [],
   "author": "",

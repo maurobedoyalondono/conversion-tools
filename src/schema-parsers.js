@@ -30,8 +30,8 @@ exports.parsePromotional = function(promotionalStr) {
     };
 };
 
-exports.parseRegistrationStatus = function(registrationOpen) {
-    return registrationOpen.toLowerCase() === 'yes'? 'open' : 'closed';
+exports.parseYesNoField = function(fieldValue) {
+    return fieldValue.toLowerCase() === 'yes'? true : false;
 };
 
 exports.parseTags = function(tagsStr) {

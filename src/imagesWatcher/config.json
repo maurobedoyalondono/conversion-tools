@@ -1,0 +1,14 @@
+{
+    "watchFolder": "/home/negrito/Downloads",
+    "outputFolder": "/home/negrito/Downloads/processed-images",
+    "filePrefix": "vel-img-",
+    "resizeWidth": 1300,
+    "cropHeight": 370,
+    "patterns": [
+      "\\.jpg$",
+      "\\.png$",
+      "\\.webp$"
+    ],
+    "commandTemplate": "convert \"{input}\" -resize {width}x -crop {width}x{height}+0+0 +repage \"{output}\""
+  }
+  

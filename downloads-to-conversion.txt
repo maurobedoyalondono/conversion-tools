@@ -7,3 +7,5 @@ Moved /home/negrito/Downloads/clubs.csv to /home/negrito/src/projects/conversion
 Moved /home/negrito/Downloads/club-comments.csv to /home/negrito/src/projects/conversion-tools/inputs/club-comments.csv
 Moved /home/negrito/Downloads/categories.csv to /home/negrito/src/projects/conversion-tools/inputs/categories.csv
 Moved /home/negrito/Downloads/categories.csv to /home/negrito/src/projects/conversion-tools/inputs/categories.csv
+Moved /home/negrito/Downloads/categories.csv to /home/negrito/src/projects/conversion-tools/inputs/categories.csv
+Moved /home/negrito/Downloads/categories.csv to /home/negrito/src/projects/conversion-tools/inputs/categories.csv

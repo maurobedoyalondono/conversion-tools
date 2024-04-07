@@ -91,7 +91,7 @@
         "csvName": "registrationOpen",
         "type": "custom",
         "regex": "^(Yes|No)$",
-        "parser": "parseRegistrationStatus"
+        "parser": "parseYesNoField"
       },      
       {
         "name": "distances",
