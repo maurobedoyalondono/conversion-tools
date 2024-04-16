@@ -49,7 +49,7 @@ exports.parseSocialNetworks = function(socialNetworksStr) {
     
     networks.forEach(network => {
         const [key, value] = network.split('@');
-        if (key && value && (key === 'ig' || key === 'web' || key === 'fb')) {
+        if (key && value && (key === 'ig' || key === 'web' || key === 'fb'|| key === 'yt')) {
             socialNetworksObj[key] = value;
         }
     });

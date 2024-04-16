@@ -42,6 +42,20 @@
         "mandatory": true
       },
       {
+        "name": "organizer",
+        "csvName": "organizer",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": true
+      },
+      {
+        "name": "organizerSocialNetworks",
+        "csvName": "organizerSocialNetworks",
+        "type": "custom",
+        "parser": "parseSocialNetworks",
+        "regex": "^(?:(?:ig|web|fb|yt)@[^|]+\\|?)+$"
+      },
+      {
         "name": "date",
         "csvName": "date",
         "type": "native",
@@ -74,7 +88,7 @@
         "csvName": "socialNetworks",
         "type": "custom",
         "parser": "parseSocialNetworks",
-        "regex": "^(?:(?:ig|web|fb)@[^|]+\\|?)+$"
+        "regex": "^(?:(?:ig|web|fb|yt)@[^|]+\\|?)+$"
       },            
       {
         "name": "location",
