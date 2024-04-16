@@ -18,9 +18,14 @@
       {
         "name": "description",
         "csvName": "description",
-        "type": "native",
+        "type": "localizable",
         "datatype": "string",
-        "mandatory": false
+        "mandatory": false,
+        "parser": "parseLocalization",
+        "localizationDetails": {
+          "defaultLanguage": "en",
+          "localizationField": "translations"
+        }
       },
       {
         "name": "banner",
@@ -87,8 +92,15 @@
         "parser": "parsePromotional"
       },
       {
-        "name": "registrationStatus",
-        "csvName": "registrationOpen",
+        "name": "promoted",
+        "csvName": "promoted",
+        "type": "custom",
+        "regex": "^(Yes|No)(\\|\\d+)?$",
+        "parser": "parsePromotional"
+      },
+      {
+        "name": "isRegistrationOpen",
+        "csvName": "isRegistrationOpen",
         "type": "custom",
         "regex": "^(Yes|No)$",
         "parser": "parseYesNoField"

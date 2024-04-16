@@ -1,16 +1,16 @@
 id,name,parentid,link,routeLink,order,visible
-1,en:Races|es:Carreras,,,/races,1,Yes
-2,en:Antioquia,1,,/races/?location_department=antioquia,100,No
-4,en:Medellin,2,,/races/?location_city=medellin,100,No
-5,en:Bogotá,1,,/races/?location_city=bogota,100,No
-6,en:Valle del Cauca,1,,/races/?location_department=valle-del-cauca,100,No
-7,en:Cali,6,,/races/?location_city=cali,100,No
-8,en:Manizales,1,,/races?location_city=manizales,100,No
-9,en:San Andrés,1,,/races?location_city=san-andres,100,No
-10,en:Others|es:Otros,1,,/races?location_department=others,100,No
-11,en:Quibdó,10,,/races?location_city=quibdo,100,No
-12,en:Florida Blanca,10,,/races?location_city=florida-blanca,100,No
-13,en:Sincelejo,10,,/races?location_city=sincelejo,100,No
+1,en:Races|es:Carreras,,,/events,1,Yes
+2,en:Antioquia,1,,/events/?location_department=antioquia,100,No
+4,en:Medellin,2,,/events/?location_city=medellin,100,No
+5,en:Bogotá,1,,/events/?location_city=bogota,100,No
+6,en:Valle del Cauca,1,,/events/?location_department=valle-del-cauca,100,No
+7,en:Cali,6,,/events/?location_city=cali,100,No
+8,en:Manizales,1,,/events?location_city=manizales,100,No
+9,en:San Andrés,1,,/events?location_city=san-andres,100,No
+10,en:Others|es:Otros,1,,/events?location_department=others,100,No
+11,en:Quibdó,10,,/events?location_city=quibdo,100,No
+12,en:Florida Blanca,10,,/events?location_city=florida-blanca,100,No
+13,en:Sincelejo,10,,/events?location_city=sincelejo,100,No
 3,en:Runner Experience|es:Experiencia Runner,,,/pages/journey,2,Yes
 15,en:Gear|es:Indumentaria,,,/pages/gear,4,Yes
 16,en:Clubs|es:Clubes,,,/clubs,3,Yes
