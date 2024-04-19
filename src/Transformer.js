@@ -10,7 +10,7 @@ class Transformer {
         this.schema.fields.forEach(field => {       
             const value = input[field.csvName];            
 
-            if (field.mandatory && !field.type=='aggregate' && (value === undefined || value === null)) {
+            if (field.mandatory && !field.type=='aggregate' && (value === undefined || value === null || value == '')) {
                 throw new Error(`Missing mandatory field: ${field.csvName}`);
             }
 

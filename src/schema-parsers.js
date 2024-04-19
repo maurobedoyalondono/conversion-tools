@@ -57,6 +57,25 @@ exports.parseSocialNetworks = function(socialNetworksStr) {
     return socialNetworksObj;
 };
 
+exports.parseImage = function(imageStr) {
+    const imageSizes = imageStr.split('|');
+    let image = null;
+    
+    imageSizes.forEach(network => {
+        const [key, value] = network.split(':');
+        if (key && value && (key === 'default' || key === 'xs' || key === 'sm' 
+            || key === 'md' || key === 'ls' || key === 'xl' || key === 'xxl')) {
+
+                if (!image) {
+                    image = { src: {} };
+                }
+            image.src[key] = value;
+        }
+    });
+
+    return image;
+};
+
 exports.parseLocalization = function(localizationStr, localizationDetails) {
     const parts = localizationStr.split('|');
     let defaultText = '';

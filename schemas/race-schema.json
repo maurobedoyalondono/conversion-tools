@@ -89,13 +89,34 @@
         "type": "custom",
         "parser": "parseSocialNetworks",
         "regex": "^(?:(?:ig|web|fb|yt)@[^|]+\\|?)+$"
-      },            
+      },
+      {
+        "name": "banner",
+        "csvName": "banner",
+        "type": "custom",
+        "parser": "parseImage",
+        "regex": "^(?:(?:default|xs|sm|md|lg|xl|xxl):[^|]+\\|?)+$"
+      },
+      {
+        "name": "featuredImage",
+        "csvName": "featuredImage",
+        "type": "custom",
+        "parser": "parseImage",
+        "regex": "^(?:(?:default|xs|sm|md|lg|xl|xxl):[^|]+\\|?)+$"
+      },
+      {
+        "name": "bannerCopyRight",
+        "csvName": "bannerCopyRight",
+        "type": "native",
+        "datatype": "string",
+        "mandatory": false
+      },
       {
         "name": "location",
         "csvName": "location",
         "type": "custom",
         "parser": "parseLocation",
-        "regex": "^country:[^|]+\\|department:[^|]+\\|city:[^|]+$",
+        "regex": "^country:[^|]+\\|department:([^|]+)?\\|city:[^|]+$",
         "mandatory": true
       },
       {
