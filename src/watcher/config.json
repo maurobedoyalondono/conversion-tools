@@ -3,7 +3,7 @@
       {
         "inputDir": "/home/negrito/Downloads",
         "outputDir": "/home/negrito/src/projects/conversion-tools/inputs",
-        "filesToMove": ["categ.*\\.csv", "club.*\\.csv", "race.*\\.csv"],
+        "filesToMove": ["categ.*\\.csv", "club.*\\.csv", "race.*\\.csv", "content.*\\.csv"],
         "logFile": "downloads-to-conversion.txt"
       },
       {
@@ -22,6 +22,12 @@
         "inputDir": "/home/negrito/src/projects/conversion-tools/outputs",
         "outputDir": "/home/negrito/src/projects/VeloQuo/veloquo-backend/tingo_migrations/races",
         "filesToMove": ["races.json"],
+        "logFile": "conversion-to-backend.txt"
+      },
+      {
+        "inputDir": "/home/negrito/src/projects/conversion-tools/outputs",
+        "outputDir": "/home/negrito/src/projects/VeloQuo/veloquo-backend/tingo_migrations/contents",
+        "filesToMove": ["contents.json"],
         "logFile": "conversion-to-backend.txt"
       }
     ]

@@ -37,6 +37,8 @@ node src/index.js convert -m race -i "inputs/races.csv" -o "outputs/races.json" 
 node src/index.js convert -m club -i "inputs/clubs.csv" -o "outputs/clubs.json" -a "club-location;inputs/club-locations.csv" -a "club-trainer;inputs/club-trainers.csv" -a "club-comment;inputs/club-comments.csv"
 
 node src/index.js convert -m category -i "inputs/categories.csv" -o "outputs/categories.json"
+
+node src/index.js convert -m content -i "inputs/contents.csv" -o "outputs/contents.json"
 ```
 
 ### Command Options
