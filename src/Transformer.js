@@ -27,7 +27,7 @@ class Transformer {
                     break;
                 case 'custom':
                     if (value) {
-                        this.validateCustomType(value, field, field.csvName);
+                        this.validateCustomType(input, value, field, field.csvName);
                         result[field.name] = schemaParsers[field.parser](value);
                     }                   
                     
@@ -80,9 +80,9 @@ class Transformer {
         }
     }
 
-    validateCustomType(value, field, fieldName) {
+    validateCustomType(input, value, field, fieldName) {
         if (field.regex && !new RegExp(field.regex).test(value)) {
-            throw new Error(`Field ${fieldName} with value ${value} does not match the required pattern: ${field.regex}`);
+            throw new Error(`Field ${fieldName} with value ${value} does not match the required pattern: ${field.regex}. Details: ${JSON.stringify(input)}`);
         }
 
         if (field.parser && schemaParsers[field.parser]) {
