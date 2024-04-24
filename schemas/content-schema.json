@@ -38,6 +38,15 @@
         "type": "native",
         "datatype": "string",
         "mandatory": false
+      },      
+      {
+        "name": "questions",
+        "type": "aggregate",
+        "schema": "content-data",        
+        "aggregateKey": {
+          "main": "code",
+          "foreign": "code"
+        }
       }
     ]
   }

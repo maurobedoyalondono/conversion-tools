@@ -1,0 +1,37 @@
+{
+    "name": "content",
+    "fields": [
+        {
+            "name": "code",
+            "csvName": "code",
+            "type": "native",
+            "datatype": "string",
+            "mandatory": false
+        },
+        {
+          "name": "title",
+          "csvName": "title",
+          "type": "localizable",
+          "datatype": "string",
+          "mandatory": true,
+          "parser": "parseLocalization",
+          "localizationDetails": {
+            "defaultLanguage": "en",
+            "localizationField": "translations"
+          }
+        },
+        {
+          "name": "content",
+          "csvName": "content",
+          "type": "localizable",
+          "datatype": "string",
+          "mandatory": true,
+          "parser": "parseLocalization",
+          "localizationDetails": {
+            "defaultLanguage": "en",
+            "localizationField": "translations"
+          }
+        }
+    ]
+  }
+  
