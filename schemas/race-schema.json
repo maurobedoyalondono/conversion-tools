@@ -91,6 +91,13 @@
         "regex": "^(?:(?:ig|web|fb|yt)@[^|]+\\|?)+$"
       },
       {
+        "name": "media",
+        "csvName": "media",
+        "type": "custom",
+        "parser": "parseMedia",
+        "regex": "^(?:(?:yt)@[^|]+\\|?)+$"
+      },
+      {
         "name": "banner",
         "csvName": "banner",
         "type": "custom",

@@ -57,6 +57,20 @@ exports.parseSocialNetworks = function(socialNetworksStr) {
     return socialNetworksObj;
 };
 
+exports.parseMedia = function(mediaStr) {
+    const medias = mediaStr.split('|');
+    let mediasObj = [];
+    
+    medias.forEach(network => {
+        const [key, value] = network.split('@');
+        if (key && value && (key === 'yt')) {
+            mediasObj.push({ key, value });            
+        }
+    });
+
+    return mediasObj;
+};
+
 exports.parseImage = function(imageStr) {
     const imageSizes = imageStr.split('|');
     let image = null;

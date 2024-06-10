@@ -1,72 +1,227 @@
-raceCode,raceName,Distance,registrationFee,Start Time,Elevation gained,Tags,Notes
-san-andres-vuelta-a-isla-2024,Vuelta a San Andrés Isla,32,,08:00,20,,
-san-andres-vuelta-a-isla-2024,Vuelta a San Andrés Isla,21,,08:00,5,,
-medellin-maraton-2024,Maratón de Medellín,42,,,,,
-medellin-maraton-2024,Maratón de Medellín,21,,,,,
-medellin-maraton-2024,Maratón de Medellín,10,,,,,
-medellin-maraton-2024,Maratón de Medellín,5,,,,,
-cali-media-maraton-2024,Media Maratón de Cali,21,,,,,
-cali-media-maraton-2024,Media Maratón de Cali,10,,,,,
-cali-media-maraton-2024,Media Maratón de Cali,5,,,,,
-rionegro-media-maraton-2024,Media Maratón Rionegro,21,,,,,
-rionegro-media-maraton-2024,Media Maratón Rionegro,10,,,,,
-rionegro-media-maraton-2024,Media Maratón Rionegro,5,,,,,
-medellin-expedicion-bodytech-2024,Expedición Bodytech,12,,,,,
-medellin-expedicion-bodytech-2024,Expedición Bodytech,6,,,,,
-medellin-expedicion-bodytech-2024,Expedición Bodytech,3,,,,non-competitive,Children (age 5-14) need to register along with an Adult
-medellin-parceros-run-2024,Parceros Run,15,,,,,
-medellin-parceros-run-2024,Parceros Run,10,,,,,
-medellin-parceros-run-2024,Parceros Run,5,,,,,
-medellin-parceros-run-2024,Parceros Run,2,,,,non-competitive,Children (age 2-9) need to register along with an Adult 
-medellin-corre-mi-tierra-2024,Corre mi Tierra,21,,,,,
-medellin-corre-mi-tierra-2024,Corre mi Tierra,15,,,,,
-medellin-corre-mi-tierra-2024,Corre mi Tierra,10,,,,,
-medellin-corre-mi-tierra-2024,Corre mi Tierra,5,,,,family:pi-heart,5k Adults and 5k kids
-barranquilla-corre-mi-tierra-2024,Corre mi Tierra,21,,,,,
-barranquilla-corre-mi-tierra-2024,Corre mi Tierra,15,,,,,
-barranquilla-corre-mi-tierra-2024,Corre mi Tierra,10,,,,,
-barranquilla-corre-mi-tierra-2024,Corre mi Tierra,5,,,,family,5k Adults and 5k kids
-bogota-corre-mi-tierra-2024,Corre mi Tierra,21,,,,,
-bogota-corre-mi-tierra-2024,Corre mi Tierra,15,,,,,
-bogota-corre-mi-tierra-2024,Corre mi Tierra,10,,,,,
-bogota-corre-mi-tierra-2024,Corre mi Tierra,5,,,,family,5k Adults and 5k kids
-medellin-carrera-por-la-salud-mental-2024,Carrera por la Salud Mental,10,,,,,
-medellin-carrera-por-la-salud-mental-2024,Carrera por la Salud Mental,5,,,,,
-medellin-carrera-por-la-salud-mental-2024,Carrera por la Salud Mental,3,,,,,
-medellin-medallo-run-2024,Medallo Run,13,,,,,
-medellin-medallo-run-2024,Medallo Run,7,,,,,
-medellin-medallo-run-2024,Medallo Run,3,,,,family,3k Adults and 3k kids
-medellin-allianz-15k-2024,Allianz 15k,15,,07:00,,,
-bogota-media-maraton-2024,Media Maratón de Bogotá,21,,,,,
-bogota-media-maraton-2024,Media Maratón de Bogotá,10,,,,,
-la-ceja-new-balance-series-15k-2024,New Balance Series 15k,15,,,,,
-guasca-new-balance-series-15k-2024,New Balance Series 15k,15,,,,,
-pereira-media-maraton-del-cafe-2024,Media Maratón del Café,21,,,,,
-pereira-media-maraton-del-cafe-2024,Media Maratón del Café,10,,,,,
-pereira-media-maraton-del-cafe-2024,Media Maratón del Café,5,,,,,
-monteria-media-maraton-2024,Media Maratón de Montería,21,,,,,
-monteria-media-maraton-2024,Media Maratón de Montería,10,,,,,
-monteria-media-maraton-2024,Media Maratón de Montería,5,,,,,
-monteria-media-maraton-2024,Media Maratón de Montería,3,,,,kids,3K kids
-manizales-media-maraton-2024,Media Maratón de Manizales,21,,,,,
-manizales-media-maraton-2024,Media Maratón de Manizales,10,,,,,
-manizales-media-maraton-2024,Media Maratón de Manizales,5,,,,,5k Adults and 5k kids
-manizales-media-maraton-junior-2024,Media Maratón de Manizales - Junior,5,,,,junior,
-manizales-media-maraton-junior-2024,Media Maratón de Manizales - Junior,3,,,,junior:pi-heart|kids,
-cali-carrera-rio-2024,Carrera Río Cali,10,,,,,
-cali-carrera-rio-2024,Carrera Río Cali,5,,,,,
-quibdo-media-maraton-2024,Media Maratón de Quibdó,21,,,,,
-quibdo-media-maraton-2024,Media Maratón de Quibdó,10,,,,,
-quibdo-media-maraton-2024,Media Maratón de Quibdó,5,,,,,
-floridablanca-media-maraton-2024,Media Maratón de Floridablanca,21,,,,,
-floridablanca-media-maraton-2024,Media Maratón de Floridablanca,10,,,,,
-floridablanca-media-maraton-2024,Media Maratón de Floridablanca,5,,,,,
-sincelejo-media-maraton-2024,Media Maratón de Sincelejo,21,,,,,
-sincelejo-media-maraton-2024,Media Maratón de Sincelejo,10,,,,,
-sincelejo-media-maraton-2024,Media Maratón de Sincelejo,5,,,,,
-cucuta-media-maraton-de-oriente-2024,Media Maratón de Oriente,21,149000,,,,
-cucuta-media-maraton-de-oriente-2024,Media Maratón de Oriente,20,149000,,,,
-cucuta-media-maraton-de-oriente-2024,Media Maratón de Oriente,5,149000,,,,
-entabeni-marathon-2024,Big Five Marathon,42,,09:00,,,
-entabeni-marathon-2024,Big Five Marathon,21,,09:15,,,
-duitama-carrera-los-libertadores-2024,Carrera Los Libertadores,10,80000,,,U14|U16|U18|Senior Master|Discapacidad,
+raceCode,Distance,registrationFee,Start Time,Elevation gained,Tags,Notes,COUNT
+san-andres-vuelta-a-isla-2024,32,,08:00,20,,,2
+san-andres-vuelta-a-isla-2024,21,,08:00,5,,,2
+medellin-maraton-2024,42,,,,,,4
+medellin-maraton-2024,21,,,,,,4
+medellin-maraton-2024,10,,,,,,4
+medellin-maraton-2024,5,,,,,,4
+cali-media-maraton-2024,21,,,,,,3
+cali-media-maraton-2024,10,,,,,,3
+cali-media-maraton-2024,5,,,,,,3
+rionegro-media-maraton-2024,21,,,,,,3
+rionegro-media-maraton-2024,10,,,,,,3
+rionegro-media-maraton-2024,5,,,,,,3
+medellin-expedicion-bodytech-2024,12,,,,,,3
+medellin-expedicion-bodytech-2024,6,,,,,,3
+medellin-expedicion-bodytech-2024,3,,,,non-competitive,Children (age 5-14) need to register along with an Adult,3
+medellin-parceros-run-2024,15,,,,,,4
+medellin-parceros-run-2024,10,,,,,,4
+medellin-parceros-run-2024,5,,,,,,4
+medellin-parceros-run-2024,2,,,,non-competitive,Children (age 2-9) need to register along with an Adult ,4
+medellin-corre-mi-tierra-2024,21,,,,,,4
+medellin-corre-mi-tierra-2024,15,,,,,,4
+medellin-corre-mi-tierra-2024,10,,,,,,4
+medellin-corre-mi-tierra-2024,5,,,,family:pi-heart,5k Adults and 5k kids,4
+barranquilla-corre-mi-tierra-2024,21,,,,,,4
+barranquilla-corre-mi-tierra-2024,15,,,,,,4
+barranquilla-corre-mi-tierra-2024,10,,,,,,4
+barranquilla-corre-mi-tierra-2024,5,,,,family,5k Adults and 5k kids,4
+bogota-corre-mi-tierra-2024,21,,,,,,4
+bogota-corre-mi-tierra-2024,15,,,,,,4
+bogota-corre-mi-tierra-2024,10,,,,,,4
+bogota-corre-mi-tierra-2024,5,,,,family,5k Adults and 5k kids,4
+medellin-carrera-por-la-salud-mental-2024,10,,,,,,3
+medellin-carrera-por-la-salud-mental-2024,5,,,,,,3
+medellin-carrera-por-la-salud-mental-2024,3,,,,,,3
+medellin-medallo-run-2024,13,,,,,,3
+medellin-medallo-run-2024,7,,,,,,3
+medellin-medallo-run-2024,3,,,,family,3k Adults and 3k kids,3
+medellin-allianz-15k-2024,15,,07:00,,,,1
+bogota-media-maraton-2024,21,,,,,,2
+bogota-media-maraton-2024,10,,,,,,2
+la-ceja-new-balance-series-15k-2024,15,,,,,,1
+guasca-new-balance-series-15k-2024,15,,,,,,1
+pereira-media-maraton-del-cafe-2024,21,,,,,,3
+pereira-media-maraton-del-cafe-2024,10,,,,,,3
+pereira-media-maraton-del-cafe-2024,5,,,,,,3
+monteria-media-maraton-2024,21,,,,,,4
+monteria-media-maraton-2024,10,,,,,,4
+monteria-media-maraton-2024,5,,,,,,4
+monteria-media-maraton-2024,3,,,,kids,3K kids,4
+manizales-media-maraton-2024,21,,,,,,3
+manizales-media-maraton-2024,10,,,,,,3
+manizales-media-maraton-2024,5,,,,,5k Adults and 5k kids,3
+manizales-media-maraton-junior-2024,5,,,,junior,,2
+manizales-media-maraton-junior-2024,3,,,,junior:pi-heart|kids,,2
+cali-carrera-rio-2024,10,,,,,,2
+cali-carrera-rio-2024,5,,,,,,2
+quibdo-media-maraton-2024,21,,,,,,3
+quibdo-media-maraton-2024,10,,,,,,3
+quibdo-media-maraton-2024,5,,,,,,3
+floridablanca-media-maraton-2024,21,,,,,,3
+floridablanca-media-maraton-2024,10,,,,,,3
+floridablanca-media-maraton-2024,5,,,,,,3
+sincelejo-media-maraton-2024,21,,,,,,3
+sincelejo-media-maraton-2024,10,,,,,,3
+sincelejo-media-maraton-2024,5,,,,,,3
+cucuta-media-maraton-de-oriente-2024,21,149000,,,,,3
+cucuta-media-maraton-de-oriente-2024,20,149000,,,,,3
+cucuta-media-maraton-de-oriente-2024,5,149000,,,,,3
+entabeni-marathon-2024,42,,09:00,,,,2
+entabeni-marathon-2024,21,,09:15,,,,2
+duitama-carrera-los-libertadores-2024,10,80000,,,U14|U16|U18|Senior Master|Discapacidad,,1
+bogota-carrera-por-los-heroes-2024,10,,,,,,2
+bogota-carrera-por-los-heroes-2024,5,,,,,,2
+ibague-maraton-dulima-2024,42,,,,,,4
+ibague-maraton-dulima-2024,21,,,,,,4
+ibague-maraton-dulima-2024,10,,,,,,4
+ibague-maraton-dulima-2024,5,,,,,,4
+barranquilla-corre-x-quilla-2024,18,,,,,,3
+barranquilla-corre-x-quilla-2024,12,,,,,,3
+barranquilla-corre-x-quilla-2024,6,,,,,,3
+bogota-mi-reto-kids-2024,1,,,,,,1
+bogota-carrera-de-las-rosas-2024,15,,,,,,4
+bogota-carrera-de-las-rosas-2024,10,,,,,,4
+bogota-carrera-de-las-rosas-2024,5,,,,,,4
+bogota-carrera-de-las-rosas-2024,2,,,,,,4
+villavicencio-carrera-de-la-llanura-2024,10,,,,,,2
+villavicencio-carrera-de-la-llanura-2024,5,,,,,,2
+buga-monasterio-run-8k-en-ascenso-2024,8,,,,,,1
+montenegro-carrera-por-los-peluditos-2024,10,,,,,,3
+montenegro-carrera-por-los-peluditos-2024,5,,,,,,3
+montenegro-carrera-por-los-peluditos-2024,3,,,,,,3
+cali-maraton-del-valle-2024,42,,,,,,3
+cali-maraton-del-valle-2024,21,,,,,,3
+cali-maraton-del-valle-2024,10,,,,,,3
+bogota-yoga-run-2024,10,,,,,,2
+bogota-yoga-run-2024,5,,,,,,2
+espinal-carrera-itfip-2024,10,,,,,,2
+espinal-carrera-itfip-2024,5,,,,,,2
+acacias-carrera-amanecer-llanero-2024,10,,,,,,2
+acacias-carrera-amanecer-llanero-2024,5,,,,,,2
+santa-marta-media-maraton-2024,21,,,,,,3
+santa-marta-media-maraton-2024,10,,,,,,3
+santa-marta-media-maraton-2024,5,,,,,,3
+chinchina-media-maraton-2024,,,,,,,1
+,,,,,,,0
+ibague-milla-de-colores-2024,3,,,,,,1
+cartagena-superheroes-run-kids-2024,2,,,,,,2
+cartagena-superheroes-run-kids-2024,1,,,,,,2
+cartagena-superheroes-run-2024,16,,,,,,2
+cartagena-superheroes-run-2024,8,,,,,,2
+soacha-5kzuca-2024,5,,,,,,1
+barranquilla-carrera-de-las-rosas-2024,15,,,,,,4
+barranquilla-carrera-de-las-rosas-2024,10,,,,,,4
+barranquilla-carrera-de-las-rosas-2024,5,,,,,,4
+barranquilla-carrera-de-las-rosas-2024,2,,,,,,4
+bogota-trail-urbano-2024,11,,,,,,1
+pereira-corramos-con-el-corazon-2024,10,,,,,,2
+pereira-corramos-con-el-corazon-2024,5,,,,,,2
+cienaga-de-oro-media-maraton-2024,21,,,,,,3
+cienaga-de-oro-media-maraton-2024,10,,,,,,3
+cienaga-de-oro-media-maraton-2024,5,,,,,,3
+ocana-media-maraton-de-la-cordillera-2024,21,,,,,,4
+ocana-media-maraton-de-la-cordillera-2024,10,,,,,,4
+ocana-media-maraton-de-la-cordillera-2024,5,,,,,,4
+ocana-media-maraton-de-la-cordillera-2024,3,,,,,,4
+zarzal-neon-fest-run-2024,10,,,,,,3
+zarzal-neon-fest-run-2024,5,,,,,,3
+zarzal-neon-fest-run-2024,3,,,,,,3
+bogota-carrera-compensar-2024,10,,,,,,3
+bogota-carrera-compensar-2024,5,,,,,,3
+bogota-carrera-compensar-2024,3,,,,,,3
+cali-ascenso-cristo-rey-7k-y-virgen-yanaconas-15k-2024,15,,,,,,2
+cali-ascenso-cristo-rey-7k-y-virgen-yanaconas-15k-2024,7,,,,,,2
+pance-reverdece-comfandi-2024,10,,,,,,3
+pance-reverdece-comfandi-2024,5,,,,,,3
+pance-reverdece-comfandi-2024,2,,,,,,3
+tulua-carrera-rio-2024,10,,,,,,2
+tulua-carrera-rio-2024,5,,,,,,2
+la-ceja-carrera-valle-de-san-nicolas-2024,15,,,,,,3
+la-ceja-carrera-valle-de-san-nicolas-2024,10,,,,,,3
+la-ceja-carrera-valle-de-san-nicolas-2024,5,,,,,,3
+vijes-carrera-2024,10,,,,,,2
+vijes-carrera-2024,5,,,,,,2
+cali-independencia-run-2024,10,,,,,,2
+cali-independencia-run-2024,5,,,,,,2
+cali-expedicion-bodytech-2024,12,,,,,,3
+cali-expedicion-bodytech-2024,6,,,,,,3
+cali-expedicion-bodytech-2024,3,,,,,,3
+cartago-carrera-del-sol-2024,10,,,,,,2
+cartago-carrera-del-sol-2024,5,,,,,,2
+cali-carrera-del-pacifico-2024,10,,,,,,1
+barrancabermeja-media-maraton-del-sol-2024,21,,,,,,3
+barrancabermeja-media-maraton-del-sol-2024,10,,,,,,3
+barrancabermeja-media-maraton-del-sol-2024,5,,,,,,3
+calarca-media-maraton-entre-montanas-2024,21,,,,,,3
+calarca-media-maraton-entre-montanas-2024,10,,,,,,3
+calarca-media-maraton-entre-montanas-2024,5,,,,,,3
+bogota-carrera-de-la-caminata-de-la-solidaridad-2024,10,,,,,,3
+bogota-carrera-de-la-caminata-de-la-solidaridad-2024,5,,,,,,3
+bogota-carrera-de-la-caminata-de-la-solidaridad-2024,3,,,,,,3
+barranquilla-carrera-fuerza-aerea-2024,10,,,,,,2
+barranquilla-carrera-fuerza-aerea-2024,5,,,,,,2
+bogota-running-indoor-2024,5,,,,,,1
+bogota-carrera-de-la-mujer-2024,21,,,,,,3
+bogota-carrera-de-la-mujer-2024,10,,,,,,3
+bogota-carrera-de-la-mujer-2024,5,,,,,,3
+cali-carrera-del-zoologico-2024,10,,,,,,1
+bogota-expedicion-bodytech-2024,12,,,,,,3
+bogota-expedicion-bodytech-2024,6,,,,,,3
+bogota-expedicion-bodytech-2024,3,,,,,,3
+ibague-media-maraton-musical-2024,21,,,,,,3
+ibague-media-maraton-musical-2024,10,,,,,,3
+ibague-media-maraton-musical-2024,5,,,,,,3
+manizales-corre-con-el-alma-2024,15,,,,,,3
+manizales-corre-con-el-alma-2024,10,,,,,,3
+manizales-corre-con-el-alma-2024,5,,,,,,3
+cartagena-11k-san-valentin-2024,21,,,,,,3
+cartagena-11k-san-valentin-2024,11,,,,,,3
+cartagena-11k-san-valentin-2024,6,,,,,,3
+medellin-carrera-de-las-rosas-2024,21,,,,,,5
+medellin-carrera-de-las-rosas-2024,15,,,,,,5
+medellin-carrera-de-las-rosas-2024,10,,,,,,5
+medellin-carrera-de-las-rosas-2024,5,,,,,,5
+medellin-carrera-de-las-rosas-2024,2,,,,,,5
+cali-carrera-decathlon-2024,10,,,,,,2
+cali-carrera-decathlon-2024,5,,,,,,2
+armenia-carrera-por-la-salud-mental-2024,10,,,,,,2
+armenia-carrera-por-la-salud-mental-2024,5,,,,,,2
+bogota-global-energy-race-bimbo-2024,10,,,,,,1
+bogota-run-tour-avianca-2024,10,,,,,,1
+guatape-media-maraton-2024,21,,,,,,2
+guatape-media-maraton-2024,10,,,,,,2
+valledupar-media-maraton-2024,21,,,,,,3
+valledupar-media-maraton-2024,10,,,,,,3
+valledupar-media-maraton-2024,5,,,,,,3
+bogota-allianz-15k-2024,15,,,,,,1
+bucaramanga-media-maraton-de-fcv-2024,21,,,,,,3
+bucaramanga-media-maraton-de-fcv-2024,10.5,,,,,,3
+bucaramanga-media-maraton-de-fcv-2024,5,,,,,,3
+cali-10k-de-la-luz-2024,10,,,,,,2
+cali-10k-de-la-luz-2024,5,,,,,,2
+bogota-heroes-run-2024,21,,,,,,2
+bogota-heroes-run-2024,10,,,,,,2
+cartagena-carrera-pintate-2024,5,,,,,,1
+bogota-duatlon-2024,58,,,,,,2
+bogota-duatlon-2024,29,,,,,,2
+tunja-media-maraton-2024,21,,,,,,1
+armenia-night-run-2024,15,,21:00,,,,3
+armenia-night-run-2024,7,,21:00,,,,3
+armenia-night-run-2024,5,,21:00,,,,3
+bucaramanga-reto-aeropuerto-2024,10,,,,,,1
+armenia-nghgt-run-music-festival-2024,3,,,,,,3
+armenia-nghgt-run-music-festival-2024,7,,,,,,3
+armenia-nghgt-run-music-festival-2024,15,,,,,,3
+tulua-media-maraton-2024,21,,,,,,3
+tulua-media-maraton-2024,10,,,,,,3
+tulua-media-maraton-2024,5,,,,,,3
+palmira-carrera-deportivo-cali-2024,8,,,,,,3
+palmira-carrera-deportivo-cali-2024,5,,,,,,3
+palmira-carrera-deportivo-cali-2024,2,,,,,,3
+bogota-maraton-2024,42,,,,,,1
+cartagena-christmas-run-kids-2024,2,,,,,,2
+cartagena-christmas-run-kids-2024,1,,,,,,2
+cartagena-christmas-run-2024,15,,,,,,2
+cartagena-christmas-run-2024,8,,,,,,2
+cartagena-san-silvestre-2024,10,,,,,,1

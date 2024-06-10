@@ -9,3 +9,10 @@ Moved /home/negrito/Downloads/categories.csv to /home/negrito/src/projects/conve
 Moved /home/negrito/Downloads/categories.csv to /home/negrito/src/projects/conversion-tools/inputs/categories.csv
 Moved /home/negrito/Downloads/categories.csv to /home/negrito/src/projects/conversion-tools/inputs/categories.csv
 Moved /home/negrito/Downloads/categories.csv to /home/negrito/src/projects/conversion-tools/inputs/categories.csv
+Moved /home/negrito/Downloads/races.csv to /home/negrito/src/projects/conversion-tools/inputs/races.csv
+Moved /home/negrito/Downloads/race-distances.csv to /home/negrito/src/projects/conversion-tools/inputs/race-distances.csv
+Moved /home/negrito/Downloads/races.csv to /home/negrito/src/projects/conversion-tools/inputs/races.csv
+Moved /home/negrito/Downloads/races.csv to /home/negrito/src/projects/conversion-tools/inputs/races.csv
+Moved /home/negrito/Downloads/races.csv to /home/negrito/src/projects/conversion-tools/inputs/races.csv
+Moved /home/negrito/Downloads/race-distances.csv to /home/negrito/src/projects/conversion-tools/inputs/race-distances.csv
+Moved /home/negrito/Downloads/races.csv to /home/negrito/src/projects/conversion-tools/inputs/races.csv
