@@ -141,6 +141,13 @@
         "parser": "parsePromotional"
       },
       {
+        "name": "isActive",
+        "csvName": "isActive",
+        "type": "custom",
+        "regex": "^(Yes|No)$",
+        "parser": "parseYesNoField"
+      },
+      {
         "name": "isRegistrationOpen",
         "csvName": "isRegistrationOpen",
         "type": "custom",

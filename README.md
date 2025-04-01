@@ -27,7 +27,14 @@ Ensure [Node.js](https://nodejs.org/) is installed, then:
 
 Windows
 ```bash
-node src/index.js convert -m race -i "./inputs/races.csv" -o "./outputs/races.json" -a "race-distance:./inputs/race-distances.csv"
+node src/index.js convert -m race -i "./inputs/races.csv" -o "./outputs/races.json" -a "race-distance;./inputs/race-distances.csv"
+
+node src/index.js convert -m club -i "./inputs/clubs.csv" -o "./outputs/clubs.json" -a "club-location;./inputs/club-locations.csv" -a "club-trainer;./inputs/club-trainers.csv" -a "club-comment;./inputs/club-comments.csv"
+
+node src/index.js convert -m category -i "./inputs/categories.csv" -o "./outputs/categories.json"
+
+node src/index.js convert -m content -i "./inputs/contents.csv" -o "./outputs/contents.json"
+
 ```
 
 Linux
@@ -47,6 +54,14 @@ node src/index.js convert -m content -i "inputs/contents.csv" -o "outputs/conten
 - `--input`, `-i`: Input CSV file path. (Required)
 - `--output`, `-o`: Output JSON file path. (Required)
 - `--aggregation`, `-a`: Related schema and CSV file for aggregation. Repeatable.
+
+### Watcher
+
+If you want to watch for source csv files and move them into the current directory you need to check "src/watcher/config.json"
+
+These are the actions performed by the Watcher
+- Copies CSV input files to current project (so they can be processed)
+- Copies JSON output files to Data project (so it can be imported to the Database)
 
 ## Custom Field Examples
 

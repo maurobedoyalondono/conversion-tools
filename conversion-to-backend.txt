@@ -22,3 +22,16 @@ Moved /home/negrito/src/projects/conversion-tools/outputs/races.json to /home/ne
 Moved /home/negrito/src/projects/conversion-tools/outputs/races.json to /home/negrito/src/projects/VeloQuo/veloquo-backend/tingo_migrations/races/races.json
 Moved /home/negrito/src/projects/conversion-tools/outputs/races.json to /home/negrito/src/projects/VeloQuo/veloquo-backend/tingo_migrations/races/races.json
 Moved /home/negrito/src/projects/conversion-tools/outputs/races.json to /home/negrito/src/projects/VeloQuo/veloquo-backend/tingo_migrations/races/races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to \home\negrito\src\projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to \home\negrito\src\projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to \home\negrito\src\projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
+Moved C:\Projects\VeloQuo\conversion-tools\outputs\races.json to C:\Projects\VeloQuo\veloquo-backend\tingo_migrations\races\races.json
